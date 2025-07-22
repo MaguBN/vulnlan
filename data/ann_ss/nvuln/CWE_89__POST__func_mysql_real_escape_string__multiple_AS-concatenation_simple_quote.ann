@@ -1,0 +1,7 @@
+var::taint POST::taint
+var::ntaint mysql_real_escape_string::san var::taint
+var::ntaint SQL_QUERY::ntaint var::ntaint
+var::und mysql_connect::und
+mysql_select_db::und
+echo::und var::ntaint
+var::ntaint mysql_query::ntaint var::ntaint

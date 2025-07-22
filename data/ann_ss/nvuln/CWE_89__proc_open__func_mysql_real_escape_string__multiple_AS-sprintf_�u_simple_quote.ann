@@ -1,0 +1,17 @@
+var::und array::und
+0::und array::und
+1::und array::und
+2::und array::und
+var::und
+var::taint proc_open::taint var::und var::und var::und NULL::und
+if::und is_resource::und var::taint
+fclose::und var::und
+var::taint stream_get_contents::und var::und
+fclose::und var::und
+var::taint proc_close::und var::taint
+var::ntaint mysql_real_escape_string::san var::taint
+var::ntaint sprintf::ntaint SQL_QUERY::ntaint var::ntaint
+var::und mysql_connect::und
+mysql_select_db::und
+echo::und var::ntaint
+var::ntaint mysql_query::ntaint var::ntaint

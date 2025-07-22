@@ -1,0 +1,10 @@
+var::und array::und
+var::und
+var::taint GET::taint
+var::und
+var::taint var::taint
+var::taint SQL_QUERY::taint var::taint
+var::und mysql_connect::und
+mysql_select_db::und
+echo::und var::taint
+var::taint mysql_query::taint var::taint

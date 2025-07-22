@@ -1,0 +1,822 @@
+"file_name","file_content_in_il","vulnerable"
+"CWE_89__array-GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il","var1 array
+var1_0
+var1_1 GET
+var1_2
+var2 var1_1
+var3 filter_var var2 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var2 var3
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il","var1 array
+var1_0
+var1_1 GET
+var1_2
+var2 var1_1
+var3 filter_var var2 FILTER_SANITIZE_SPECIAL_CHARS
+var2 var3
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__array-GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il","var1 array
+var1_0
+var1_1 GET
+var1_2
+var2 var1_1
+if filter_var var3 FILTER_VALIDATE_EMAIL
+  var2 var3
+else
+  var2
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__array-GET__func_preg_match-no_filtering__join-concatenation_simple_quote.il","var1 array
+var1_0
+var1_1 GET
+var1_2
+var2 var1_1
+var3
+if preg_match var3 var2_1
+  var2 var2
+else
+  var2
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__array-GET__no_sanitizing__select_from-interpretation_simple_quote.il","var1 array
+var1_0
+var1_1 GET
+var1_2
+var2 var1_1
+var3 SQL_QUERY var2
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__backticks__func_preg_match-no_filtering__join-concatenation_simple_quote.il","var1 exec
+var2
+if preg_match var2 var1_1
+  var1 var1
+else
+  var1
+var3 SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__backticks__no_sanitizing__multiple_select-interpretation_simple_quote.il","var1 exec
+var2 SQL_QUERY var1
+var3 mysql_connect
+mysql_select_db
+echo var2
+var4 mysql_query var2
+loop var5 mysql_fetch_array var4
+  print_r var5
+  echo
+mysql_close var3","1"
+"CWE_89__backticks__no_sanitizing__multiple_select-sprintf_�s_simple_quote.il","var1 exec
+var2 sprintf SQL_QUERY var1
+var3 mysql_connect
+mysql_select_db
+echo var2
+var4 mysql_query var2
+loop var5 mysql_fetch_array var4
+  print_r var5
+  echo
+mysql_close var3","1"
+"CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-interpretation_simple_quote.il","var1
+exec var1 var2 var3
+var4 var2_0
+var5 filter_var var4 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var4 var5
+var6 SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__exec__func_preg_match-no_filtering__join-interpretation_simple_quote.il","var1
+exec var1 var2 var3
+var4 var2_0
+var5
+if preg_match var5 var4_1
+  var4 var4
+else
+  var4
+var6 SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__exec__no_sanitizing__select_from-interpretation_simple_quote.il","var1
+exec var1 var2 var3
+var4 var2_0
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il","var1 fopen
+if var1
+  if var2 fgets var1 4096 false
+    var2
+  fclose var1
+else
+  var2
+var3 filter_var var2 FILTER_SANITIZE_EMAIL
+if filter_var var3 FILTER_VALIDATE_EMAIL
+  var2 var3
+else
+  var2
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__fopen__func_FILTER-CLEANING-full_special_chars_filter__select_from-interpretation_simple_quote.il","var1 fopen
+if var1
+  if var2 fgets var1 4096 false
+    var2
+  fclose var1
+else
+  var2
+var3 filter_var var2 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var2 var3
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__fopen__func_FILTER-CLEANING-special_chars_filter__join-sprintf_�s_simple_quote.il","var1 fopen
+if var1
+  if var2 fgets var1 4096 false
+    var2
+  fclose var1
+else
+  var2
+var3 filter_var var2 FILTER_SANITIZE_SPECIAL_CHARS
+var2 var3
+var4 sprintf SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__fopen__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il","var1 fopen
+if var1
+  if var2 fgets var1 4096 false
+    var2
+  fclose var1
+else
+  var2
+if filter_var var3 FILTER_VALIDATE_EMAIL
+  var2 var3
+else
+  var2
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__GET__func_preg_match-no_filtering__select_from-concatenation_simple_quote.il","var1 GET
+var2
+if preg_match var2 var1_1
+  var1 var1
+else
+  var1
+var3 SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__GET__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il","var1 GET
+var2
+if preg_match var2 var1_1
+  var1 var1
+else
+  var1
+var3 SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__GET__no_sanitizing__select_from_where-concatenation_simple_quote.il","var1 GET
+var2 SQL_QUERY var1
+var3 mysql_connect
+mysql_select_db
+echo var2
+var4 mysql_query var2
+loop var5 mysql_fetch_array var4
+  print_r var5
+  echo
+mysql_close var3","1"
+"CWE_89__GET__no_sanitizing__select_from_where-interpretation_simple_quote.il","var1 GET
+var2 SQL_QUERY var1
+var3 mysql_connect
+mysql_select_db
+echo var2
+var4 mysql_query var2
+loop var5 mysql_fetch_array var4
+  print_r var5
+  echo
+mysql_close var3","1"
+"CWE_89__object-Array__func_FILTER-CLEANING-email_filter__select_from-sprintf_�s_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input_1
+  public function function_name2
+    var2->input array
+    var2->input_0
+    var2->input_1 GET
+    var2->input_2
+var3 new class_name1
+var4 var3->function_name1
+var5 filter_var var4 FILTER_SANITIZE_EMAIL
+if filter_var var5 FILTER_VALIDATE_EMAIL
+  var4 var5
+else
+  var4
+var6 sprintf SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input_1
+  public function function_name2
+    var2->input array
+    var2->input_0
+    var2->input_1 GET
+    var2->input_2
+var3 new class_name1
+var4 var3->function_name1
+var5 filter_var var4 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var4 var5
+var6 SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__object-Array__func_FILTER-CLEANING-special_chars_filter__join-sprintf_�s_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input_1
+  public function function_name2
+    var2->input array
+    var2->input_0
+    var2->input_1 GET
+    var2->input_2
+var3 new class_name1
+var4 var3->function_name1
+var5 filter_var var4 FILTER_SANITIZE_SPECIAL_CHARS
+var4 var5
+var6 sprintf SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-interpretation.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input_1
+  public function function_name2
+    var2->input array
+    var2->input_0
+    var2->input_1 GET
+    var2->input_2
+var3 new class_name1
+var4 var3->function_name1
+var4 mysql_real_escape_string var4
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__object-classicGet__func_FILTER-CLEANING-email_filter__select_from-sprintf_�s_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input GET
+var3 new class_name1
+var4 var3->function_name1
+var5 filter_var var4 FILTER_SANITIZE_EMAIL
+if filter_var var5 FILTER_VALIDATE_EMAIL
+  var4 var5
+else
+  var4
+var6 sprintf SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__object-classicGet__func_mysql_real_escape_string__select_from_where-concatenation.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input GET
+var3 new class_name1
+var4 var3->function_name1
+var4 mysql_real_escape_string var4
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__object-classicGet__no_sanitizing__multiple_AS-interpretation.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input GET
+var3 new class_name1
+var4 var3->function_name1
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__object-classicGet__no_sanitizing__multiple_select-sprintf_�s_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input GET
+var3 new class_name1
+var4 var3->function_name1
+var5 sprintf SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__object-classicGet__no_sanitizing__select_from-sprintf_�s_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input GET
+var3 new class_name1
+var4 var3->function_name1
+var5 sprintf SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__object-directGet__func_FILTER-CLEANING-full_special_chars_filter__join-interpretation_simple_quote.il","class class_name1
+  public function function_name1
+    return GET
+var1 new class_name1
+var2 var1->function_name1
+var3 filter_var var2 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var2 var3
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__object-directGet__func_preg_match-no_filtering__join-concatenation_simple_quote.il","class class_name1
+  public function function_name1
+    return GET
+var1 new class_name1
+var2 var1->function_name1
+var3
+if preg_match var3 var2_1
+  var2 var2
+else
+  var2
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__object-directGet__no_sanitizing__select_from_where-concatenation.il","class class_name1
+  public function function_name1
+    return GET
+var1 new class_name1
+var2 var1->function_name1
+var3 SQL_QUERY var2
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__select_from-sprintf_�s_simple_quote.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input array
+    var2->input
+    var2->input GET
+    var2->input
+var3 new class_name1
+var4 var3->function_name1
+var5 filter_var var4 FILTER_SANITIZE_SPECIAL_CHARS
+var4 var5
+var6 sprintf SQL_QUERY var4
+var7 mysql_connect
+mysql_select_db
+echo var6
+var8 mysql_query var6
+loop var9 mysql_fetch_array var8
+  print_r var9
+  echo
+mysql_close var7","1"
+"CWE_89__object-indexArray__func_mysql_real_escape_string__multiple_select-interpretation.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input array
+    var2->input
+    var2->input GET
+    var2->input
+var3 new class_name1
+var4 var3->function_name1
+var4 mysql_real_escape_string var4
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__object-indexArray__no_sanitizing__multiple_select-concatenation.il","class class_name1
+  private var1
+  public function function_name1
+    return var2->input
+  public function function_name2
+    var2->input array
+    var2->input
+    var2->input GET
+    var2->input
+var3 new class_name1
+var4 var3->function_name1
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6","1"
+"CWE_89__POST__func_FILTER-CLEANING-email_filter__select_from-sprintf_�s_simple_quote.il","var1 POST
+var2 filter_var var1 FILTER_SANITIZE_EMAIL
+if filter_var var2 FILTER_VALIDATE_EMAIL
+  var1 var2
+else
+  var1
+var3 sprintf SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__POST__func_preg_match-no_filtering__select_from-concatenation_simple_quote.il","var1 POST
+var2
+if preg_match var2 var1_1
+  var1 var1
+else
+  var1
+var3 SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__proc_open__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il","var1 array
+0 array
+1 array
+2 array
+var2
+var3 proc_open var1 var4 var2 NULL
+if is_resource var3
+  fclose var4_0
+  var5 stream_get_contents var4_1
+  fclose var4_1
+  var6 proc_close var3
+var7 filter_var var5 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var5 var7
+var8 SQL_QUERY var5
+var9 mysql_connect
+mysql_select_db
+echo var8
+var10 mysql_query var8
+loop var11 mysql_fetch_array var10
+  print_r var11
+  echo
+mysql_close var9","1"
+"CWE_89__proc_open__func_mysql_real_escape_string__multiple_AS-interpretation.il","var1 array
+0 array
+1 array
+2 array
+var2
+var3 proc_open var1 var4 var2 NULL
+if is_resource var3
+  fclose var4_0
+  var5 stream_get_contents var4_1
+  fclose var4_1
+  var6 proc_close var3
+var5 mysql_real_escape_string var5
+var7 SQL_QUERY var5
+var8 mysql_connect
+mysql_select_db
+echo var7
+var9 mysql_query var7
+loop var10 mysql_fetch_array var9
+  print_r var10
+  echo
+mysql_close var8","1"
+"CWE_89__proc_open__no_sanitizing__join-sprintf_�s_simple_quote.il","var1 array
+0 array
+1 array
+2 array
+var2
+var3 proc_open var1 var4 var2 NULL
+if is_resource var3
+  fclose var4_0
+  var5 stream_get_contents var4_1
+  fclose var4_1
+  var6 proc_close var3
+var7 sprintf SQL_QUERY var5
+var8 mysql_connect
+mysql_select_db
+echo var7
+var9 mysql_query var7
+loop var10 mysql_fetch_array var9
+  print_r var10
+  echo
+mysql_close var8","1"
+"CWE_89__proc_open__no_sanitizing__multiple_select-interpretation.il","var1 array
+0 array
+1 array
+2 array
+var2
+var3 proc_open var1 var4 var2 NULL
+if is_resource var3
+  fclose var4_0
+  var5 stream_get_contents var4_1
+  fclose var4_1
+  var6 proc_close var3
+var7 SQL_QUERY var5
+var8 mysql_connect
+mysql_select_db
+echo var7
+var9 mysql_query var7
+loop var10 mysql_fetch_array var9
+  print_r var10
+  echo
+mysql_close var8","1"
+"CWE_89__proc_open__no_sanitizing__select_from-sprintf_�s_simple_quote.il","var1 array
+0 array
+1 array
+2 array
+var2
+var3 proc_open var1 var4 var2 NULL
+if is_resource var3
+  fclose var4_0
+  var5 stream_get_contents var4_1
+  fclose var4_1
+  var6 proc_close var3
+var7 sprintf SQL_QUERY var5
+var8 mysql_connect
+mysql_select_db
+echo var7
+var9 mysql_query var7
+loop var10 mysql_fetch_array var9
+  print_r var10
+  echo
+mysql_close var8","1"
+"CWE_89__SESSION__func_FILTER-CLEANING-email_filter__join-interpretation_simple_quote.il","var1 SESSION
+var2 filter_var var1 FILTER_SANITIZE_EMAIL
+if filter_var var2 FILTER_VALIDATE_EMAIL
+  var1 var2
+else
+  var1
+var3 SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__SESSION__no_sanitizing__select_from-sprintf_�s_simple_quote.il","var1 SESSION
+var2 sprintf SQL_QUERY var1
+var3 mysql_connect
+mysql_select_db
+echo var2
+var4 mysql_query var2
+loop var5 mysql_fetch_array var4
+  print_r var5
+  echo
+mysql_close var3","1"
+"CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-interpretation.il","var1 shell_exec
+var1 mysql_real_escape_string var1
+var2 SQL_QUERY var1
+var3 mysql_connect
+mysql_select_db
+echo var2
+var4 mysql_query var2
+loop var5 mysql_fetch_array var4
+  print_r var5
+  echo
+mysql_close var3","1"
+"CWE_89__system__no_sanitizing__select_from_where-concatenation.il","var1 system var2
+var3 SQL_QUERY var1
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__unserialize__func_FILTER-CLEANING-full_special_chars_filter__select_from-interpretation_simple_quote.il","var1 POST
+var2 unserialize var1
+var3 filter_var var2 FILTER_SANITIZE_FULL_SPECIAL_CHARS
+var2 var3
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__unserialize__func_FILTER-VALIDATION-email_filter__select_from-interpretation_simple_quote.il","var1 POST
+var2 unserialize var1
+if filter_var var3 FILTER_VALIDATE_EMAIL
+  var2 var3
+else
+  var2
+var4 SQL_QUERY var2
+var5 mysql_connect
+mysql_select_db
+echo var4
+var6 mysql_query var4
+loop var7 mysql_fetch_array var6
+  print_r var7
+  echo
+mysql_close var5","1"
+"CWE_89__unserialize__no_sanitizing__multiple_select-concatenation.il","var1 POST
+var2 unserialize var1
+var3 SQL_QUERY var2
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__unserialize__no_sanitizing__select_from-concatenation_simple_quote.il","var1 POST
+var2 unserialize var1
+var3 SQL_QUERY var2
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"
+"CWE_89__unserialize__no_sanitizing__select_from_where-concatenation_simple_quote.il","var1 POST
+var2 unserialize var1
+var3 SQL_QUERY var2
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4","1"

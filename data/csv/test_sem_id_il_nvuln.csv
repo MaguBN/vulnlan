@@ -1,0 +1,855 @@
+"file_name","file_content_in_il","vulnerable"
+"CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_�s_simple_quote.il","var array
+var
+var GET
+var
+var var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__array-GET__object-func_mysql_real_escape_stringGetter__join-sprintf_�s_simple_quote.il","var array
+var
+var GET
+var
+var var
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__backticks__object-func_mysql_real_escape_stringGetter__join-sprintf_�s_simple_quote.il","var exec
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__backticks__object-func_mysql_real_escape_string__join-sprintf_�s_simple_quote.il","var exec
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_�d.il","var
+exec var var var
+var var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__exec__func_mysql_real_escape_string__select_from_where-sprintf_�d_simple_quote.il","var
+exec var var var
+var var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__exec__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il","var
+exec var var var
+var var
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation_simple_quote.il","var fopen
+if var
+  if var fgets var 4096 false
+    var
+  fclose var
+else
+  var
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-sprintf_�s_simple_quote.il","var fopen
+if var
+  if var fgets var 4096 false
+    var
+  fclose var
+else
+  var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__fopen__func_mysql_real_escape_string__select_from_where-sprintf_�d.il","var fopen
+if var
+  if var fgets var 4096 false
+    var
+  fclose var
+else
+  var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__fopen__func_mysql_real_escape_string__select_from_where-sprintf_�d_simple_quote.il","var fopen
+if var
+  if var fgets var 4096 false
+    var
+  fclose var
+else
+  var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__GET__func_mysql_real_escape_string__multiple_select-interpretation_simple_quote.il","var GET
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__GET__func_mysql_real_escape_string__multiple_select-sprintf_�s_simple_quote.il","var GET
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__GET__func_mysql_real_escape_string__multiple_select-sprintf_�u.il","var GET
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__GET__object-func_mysql_real_escape_stringGetter__select_from-sprintf_�s_simple_quote.il","var GET
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__GET__object-func_mysql_real_escape_string__select_from-concatenation_simple_quote.il","var GET
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-Array__func_mysql_real_escape_string__multiple_AS-sprintf_�u.il","class class_name
+  private var
+  public function function_name
+    return var->input_1
+  public function function_name
+    var->input array
+    var->input_0
+    var->input_1 GET
+    var->input_2
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il","class class_name
+  private var
+  public function function_name
+    return var->input_1
+  public function function_name
+    var->input array
+    var->input_0
+    var->input_1 GET
+    var->input_2
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_�s_simple_quote.il","class class_name
+  private var
+  public function function_name
+    return var->input_1
+  public function function_name
+    var->input array
+    var->input_0
+    var->input_1 GET
+    var->input_2
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_select-sprintf_�s_simple_quote.il","class class_name
+  private var
+  public function function_name
+    return var->input
+  public function function_name
+    var->input GET
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-classicGet__func_mysql_real_escape_string__select_from_where-sprintf_�u_simple_quote.il","class class_name
+  private var
+  public function function_name
+    return var->input
+  public function function_name
+    var->input GET
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-classicGet__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il","class class_name
+  private var
+  public function function_name
+    return var->input
+  public function function_name
+    var->input GET
+var new class_name
+var var->function_name
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-directGet__func_mysql_real_escape_string__multiple_AS-concatenation_simple_quote.il","class class_name
+  public function function_name
+    return GET
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-directGet__func_mysql_real_escape_string__multiple_AS-sprintf_�u_simple_quote.il","class class_name
+  public function function_name
+    return GET
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-sprintf_�u.il","class class_name
+  public function function_name
+    return GET
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-directGet__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il","class class_name
+  public function function_name
+    return GET
+var new class_name
+var var->function_name
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__object-directGet__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il","class class_name
+  public function function_name
+    return GET
+var new class_name
+var var->function_name
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__popen__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il","var popen
+var fread var 4096
+pclose var
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_�u_simple_quote.il","var POST
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__POST__object-func_mysql_real_escape_stringGetter__select_from-concatenation_simple_quote.il","var POST
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__proc_open__func_mysql_real_escape_string__multiple_AS-sprintf_�d.il","var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__proc_open__func_mysql_real_escape_string__select_from_where-sprintf_�s_simple_quote.il","var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__proc_open__func_mysql_real_escape_string__select_from_where-sprintf_�u.il","var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__proc_open__object-func_mysql_real_escape_stringGetter__select_from-interpretation_simple_quote.il","var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__proc_open__object-func_mysql_real_escape_string__select_from-concatenation_simple_quote.il","var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__proc_open__object-func_mysql_real_escape_string__select_from-sprintf_�s_simple_quote.il","var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__SESSION__func_mysql_real_escape_string__select_from_where-sprintf_�u.il","var SESSION
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__SESSION__object-func_mysql_real_escape_stringGetter__select_from-concatenation_simple_quote.il","var SESSION
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__shell_exec__func_mysql_real_escape_string__multiple_AS-interpretation_simple_quote.il","var shell_exec
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_�u_simple_quote.il","var shell_exec
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__shell_exec__object-func_mysql_real_escape_string__join-concatenation_simple_quote.il","var shell_exec
+class class_name
+  public function function_name var
+    return mysql_real_escape_string var
+var new class_name
+var var->function_name var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__system__func_mysql_real_escape_string__multiple_AS-sprintf_�d_simple_quote.il","var system var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__system__func_mysql_real_escape_string__multiple_select-sprintf_�d_simple_quote.il","var system var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__func_mysql_real_escape_string__multiple_AS-sprintf_�d.il","var POST
+var unserialize var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__func_mysql_real_escape_string__multiple_AS-sprintf_�d_simple_quote.il","var POST
+var unserialize var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il","var POST
+var unserialize var
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_�d_simple_quote.il","var POST
+var unserialize var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_�u_simple_quote.il","var POST
+var unserialize var
+var mysql_real_escape_string var
+var sprintf SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il","var POST
+var unserialize var
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"
+"CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__select_from-concatenation_simple_quote.il","var POST
+var unserialize var
+class class_name
+  private var
+  public function function_name var
+    var->data var
+  public function function_name
+    return var->data
+  public function function_name
+    var->data mysql_real_escape_string var->data
+var new class_name var
+var->function_name
+var var->function_name
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var","0"

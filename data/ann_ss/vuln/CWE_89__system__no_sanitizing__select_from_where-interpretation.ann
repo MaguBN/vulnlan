@@ -1,0 +1,6 @@
+var::taint system::taint var::und
+var::taint SQL_QUERY::taint var::taint
+var::und mysql_connect::und
+mysql_select_db::und
+echo::und var::taint
+var::taint mysql_query::taint var::taint

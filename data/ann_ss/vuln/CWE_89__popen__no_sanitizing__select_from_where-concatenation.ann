@@ -1,0 +1,8 @@
+var::taint popen::taint
+var::taint fread::taint var::taint 4096::und
+pclose::und var::taint
+var::taint SQL_QUERY::taint var::taint
+var::und mysql_connect::und
+mysql_select_db::und
+echo::und var::taint
+var::taint mysql_query::taint var::taint
