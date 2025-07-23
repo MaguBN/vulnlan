@@ -1,12 +1,12 @@
 import argparse
 import os
-from PHPDecomposer import PHPDecomposer
+from .PHPDecomposer import PHPDecomposer
 import sys
 
 def arg_parser(args_list=None) -> tuple:
     parser = argparse.ArgumentParser(description='Translate the PHP program into a intermediate language (IL)')
     parser.add_argument('-s', nargs='*', help='Source :: Path to the PHP programs / directory')
-    parser.add_argument('-d', nargs='?', default="PHP2IL/data/processed/", help='Destination :: Path to the IL program / directory')
+    parser.add_argument('-d', nargs='?', default="../input_files/il/", help='Destination :: Path to the IL program / directory')
     args = parser.parse_args(args_list)
 
     for arg in args.s:
@@ -21,7 +21,7 @@ def arg_parser(args_list=None) -> tuple:
             return
     
     if not os.path.exists(args.d):
-        args.d = "data/processed/"
+        args.d = "../input_files/il/"
         if not os.path.exists(args.d):
             os.makedirs(args.d)
             print(f"Directory {args.d} created.")
@@ -47,7 +47,7 @@ def php_parser(php_file) -> None:
 def il_file_writer(il_file_name, tokens, new_path) -> None:  
 
     if not os.path.exists(new_path):
-        print("Folder PHP2IL/data/processed for storing processed files does not exist.")
+        print("Folder /input_files/il/ for storing processed files does not exist.")
         return 
     
     il_file_name = os.path.basename(il_file_name)
@@ -76,7 +76,7 @@ def il_file_writer(il_file_name, tokens, new_path) -> None:
         return 1
 
 
-def main(args_list=None):
+def PHP2IL(args_list=None):
     source, dest = arg_parser(args_list)
 
     if not source:
@@ -102,10 +102,10 @@ def main(args_list=None):
 if __name__ == '__main__':
     if len(sys.argv) == 1:
         # um teste descomplicado
-        main([
+        PHP2IL([
             '-s', 'data/raw/CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__select_from-concatenation_simple_quote.php',
             '-d', '.'
         ])
     else:
         # a partir do terminal ou do launch json
-        main()
+        PHP2IL()

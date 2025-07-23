@@ -330,12 +330,13 @@ def is_query(line):
 def is_var(line):
     return "$" in line.strip()
 
-def php_line_processing(lines, php_status, file_id=None):
+def php_line_processing(lines, php_status=None, file_id=None):
     codelines = []
-    if php_status == "Unsafe":
-        codelines.append("1")
-    else:
-        codelines.append("0")
+    if php_status != None:
+        if php_status == "Unsafe":
+            codelines.append("1")
+        else:
+            codelines.append("0")
 
     arrays = {}
     indentation_count = 0

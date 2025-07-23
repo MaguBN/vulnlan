@@ -1,14 +1,14 @@
-from php_utils import   remove_comments, \
+from .php_utils import   remove_comments, \
                         get_php_snippets, \
                         php_line_processing
-import re
 
 class PHPDecomposer:
     def __init__(self, php_code, file_id=None):
         self.php_code = php_code
         self.file_id = file_id
-        self.php_status = ""
-        self.php_status = self.find_php_status()
+        #self.php_status = ""
+        #self.php_status = self.find_php_status()
+        self.php_status = None
         self.php_tokens = []
         self.php_tokens = self.tokenize_php_code()
         return
