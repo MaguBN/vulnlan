@@ -11,3 +11,4 @@ pandas
 scikit-learn
 transformers==4.51.3
 ipykernel
+accelerate
