@@ -177,10 +177,11 @@ def train_test_and_save():
     counter = Counter(all_train_tokens)
     vocab_size_limit = 5000 
     vocab = {word: idx + 1 for idx, (word, _) in enumerate(counter.most_common(vocab_size_limit))}
+    max_len = 77 
 
-    train_encodings = [encode_snippet(snippet, vocab) for snippet in train_df['file_content_in_il']]
-    val_encodings = [encode_snippet(snippet, vocab) for snippet in val_df['file_content_in_il']]
-    test_encodings = [encode_snippet(snippet, vocab) for snippet in test_df['file_content_in_il']]
+    train_encodings = [encode_snippet(snippet, vocab, max_len) for snippet in train_df['file_content_in_il']]
+    val_encodings = [encode_snippet(snippet, vocab, max_len) for snippet in val_df['file_content_in_il']]
+    test_encodings = [encode_snippet(snippet, vocab, max_len) for snippet in test_df['file_content_in_il']]
 
     # Definição do Device e Hiperparâmetros (este bloco está OK, apenas movido para a ordem correta)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -209,49 +210,30 @@ def train_test_and_save():
     # Criar e Treinar/Avaliar o modelo
     model = LSTMClassifier(vocab_size, embedding_dim, hidden_dim, num_layers, output_dim, dropout)
     train_model(model, train_loader, val_loader, epochs, lr, device)
-    evaluate_model(model, test_loader, device)
+    test_accuracy, test_precision, test_recall, test_f1 = evaluate_model(model, test_loader, device)
 
-    model_save_path = "lstm_model.pth"
-    torch.save(model.state_dict(), model_save_path)
-    print(f"\nModelo final guardado em: {model_save_path}")
 
     # Limpar cache
     torch.cuda.empty_cache() if device.type == 'cuda' else None
 
+    checkpoint = {
+        'model_state_dict': model.state_dict(),
+        'vocab': vocab, # Guarde o vocabulário
+        'hyperparameters': { # Guarde os hiperparâmetros
+            'vocab_size': vocab_size,
+            'embedding_dim': embedding_dim,
+            'hidden_dim': hidden_dim,
+            'num_layers': num_layers,
+            'output_dim': output_dim,
+            'dropout': dropout,
+            'max_len': max_len # Guarde max_len para encoding futuro
+        }
+    }
 
-    # A partir daqui obtém-se os logits de novas instâncias
+    model_save_path = "lstm_model.pth" # Um nome mais descritivo
+    torch.save(checkpoint, model_save_path)
+    print(f"\nModelo, vocabulário e hiperparâmetros guardados em: {model_save_path}")
 
-    # ----------------- #
-    inference_dataset = CustomDataset(test_encodings, test_df['vulnerable'].tolist())
-    # Usar um batch_size que pegue todo o dataset de uma vez é bom para inferência se a memória permitir.
-    inference_loader = DataLoader(inference_dataset, batch_size=len(inference_dataset), shuffle=False)
-
-    logits_for_new_instances = get_logits_per_class(model, inference_loader, device)
-
-    print("Primeiras 10 linhas de logits:")
-    print(logits_for_new_instances[:10])
-
-    # Extrair os logits para cada classe e adicionar ao DataFrame
-    logit_non_vulnerable = logits_for_new_instances[:, 0].cpu().numpy()
-    logit_vulnerable = logits_for_new_instances[:, 1].cpu().numpy()
-
-    # Calcular probabilidades (se precisar delas para a heurística)
-    probabilities_per_class = torch.softmax(logits_for_new_instances, dim=1)
-    prob_non_vulnerable = probabilities_per_class[:, 0].cpu().numpy()
-    prob_vulnerable = probabilities_per_class[:, 1].cpu().numpy()
-
-    if logits_for_new_instances.shape[0] == len(test_df):
-        test_df['logit_non_vulnerable'] = logit_non_vulnerable
-        test_df['logit_vulnerable'] = logit_vulnerable
-        test_df['prob_non_vulnerable'] = prob_non_vulnerable
-        test_df['prob_vulnerable'] = prob_vulnerable
-        
-        print("\nNovas colunas (logits, probabilidades) adicionadas ao test_df (primeiras 5 linhas):")
-        print(test_df[['file_content_in_il', 'vulnerable', 
-                    'logit_non_vulnerable', 'logit_vulnerable',
-                    'prob_non_vulnerable', 'prob_vulnerable']].head())
-    else:
-        print("Número de logits do modelo não corresponde ao número de linhas no test_df. Verifique a consistência dos dados.")
-
-    # ----------------- #
-
+if __name__ == "__main__":
+    train_test_and_save()
+    print("Modelo treinado, testado e guardado.")
