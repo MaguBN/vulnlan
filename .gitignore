@@ -1,2 +1,8 @@
-\venv
+# Python virtual environment
+venv/
+
+# Python cache files
 __pycache__/
+
+# Transformer model directory
+transformers/with_id/transformer_model_id/
