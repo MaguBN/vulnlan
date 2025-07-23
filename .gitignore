@@ -6,3 +6,5 @@ __pycache__/
 
 # Transformer model directory
 transformers/with_id/transformer_model_id/
+transformers/without_id/transformer_model/
+transformers/without_id/transformer_roberta_model/

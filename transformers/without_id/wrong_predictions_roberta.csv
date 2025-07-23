@@ -1,0 +1,93 @@
+file_name,file_content_in_il,vulnerable,predicted
+CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-interpretation.il,"class class_name
+  private var
+  public function function_name
+    return var->input_1
+  public function function_name
+    var->input array
+    var->input_0
+    var->input_1 GET
+    var->input_2
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var",1,0
+CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-interpretation.il,"var shell_exec
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var",1,0
+CWE_89__proc_open__func_mysql_real_escape_string__multiple_AS-interpretation.il,"var array
+0 array
+1 array
+2 array
+var
+var proc_open var var var NULL
+if is_resource var
+  fclose var
+  var stream_get_contents var
+  fclose var
+  var proc_close var
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var",1,0
+CWE_89__object-classicGet__func_mysql_real_escape_string__select_from_where-concatenation.il,"class class_name
+  private var
+  public function function_name
+    return var->input
+  public function function_name
+    var->input GET
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var",1,0
+CWE_89__object-indexArray__func_mysql_real_escape_string__multiple_select-interpretation.il,"class class_name
+  private var
+  public function function_name
+    return var->input
+  public function function_name
+    var->input array
+    var->input
+    var->input GET
+    var->input
+var new class_name
+var var->function_name
+var mysql_real_escape_string var
+var SQL_QUERY var
+var mysql_connect
+mysql_select_db
+echo var
+var mysql_query var
+loop var mysql_fetch_array var
+  print_r var
+  echo
+mysql_close var",1,0
