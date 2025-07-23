@@ -8,3 +8,5 @@ __pycache__/
 transformers/with_id/transformer_model_id/
 transformers/without_id/transformer_model/
 transformers/without_id/transformer_roberta_model/
+transformers/without_id/transformer_gcb_model/
+transformers/without_id/transformer_gpt2_model/
