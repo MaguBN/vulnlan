@@ -1,9 +1,10 @@
 import torch
 
-def verbose(model_type, snippet_name, snippet_content, prediction, probabilities):
+def verbose(model_type, snippet_name, snippet_content, prediction, probabilities, show_snippet=True):
 
     print(f"\n----- Análise ({model_type}) de: {snippet_name} -----") # Added model_type here
-    print(f"  Snippet:\n{snippet_content}\n") # Renamed from 'snippet' for clarity
+    if show_snippet:
+        print(f"  Snippet:\n{snippet_content}\n") # Renamed from 'snippet' for clarity
     print(f"  Previsão: {'Vulnerável' if prediction == 1 else 'Não Vulnerável'}")
     # --- PROBABILITIES SIMPLIFICATION STARTS HERE ---
     if isinstance(probabilities, torch.Tensor):
