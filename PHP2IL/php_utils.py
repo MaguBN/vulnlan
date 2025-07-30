@@ -409,7 +409,7 @@ def php_line_processing(lines, php_status=None, file_id=None):
     for index in range(0, len(codelines)):
         codelines[index] = remove_superglobal_prefix(codelines[index])
 
-    print("Processed lines:", codelines)
+    #print("Processed lines:", codelines)
     #Delete empty lines
     codelines = [line for line in codelines if line.strip() != ""]
     obfuscated_codelines = preserve_indentation(codelines, obfuscate_variables)
