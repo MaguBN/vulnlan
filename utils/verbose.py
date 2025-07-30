@@ -2,7 +2,7 @@ import torch
 
 def verbose(model_type, snippet_name, snippet_content, prediction, probabilities, show_snippet=True):
 
-    print(f"\n----- Análise ({model_type}) de: {snippet_name} -----") # Added model_type here
+    print(f"\nAnálise ({model_type}) de: {snippet_name}") # Added model_type here
     if show_snippet:
         print(f"  Snippet:\n{snippet_content}\n") # Renamed from 'snippet' for clarity
     print(f"  Previsão: {'Vulnerável' if prediction == 1 else 'Não Vulnerável'}")
@@ -26,4 +26,3 @@ def verbose(model_type, snippet_name, snippet_content, prediction, probabilities
         formatted_probs = f"Formato de probabilidades inesperado: {probs_list}"
 
     print(f"  Probabilidades: {formatted_probs}")
-    print("--------------------------------------------------\n")
