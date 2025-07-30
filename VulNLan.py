@@ -19,7 +19,9 @@ from utils.load_hmm_unsup import load_hmm_from_json, prever_sql_injection
 # Heuristica
 from utils.heuristic import calculate_heuristic_confidence, convert_to_percentage
 # Modelo HMM supervised
-from utils.load_hmm_sup import load_hmm, load_il_observation_sequences, remove_var_no, restructure_predictions_by_mapping, reconstruct_with_ids_by_line
+from utils.load_hmm_sup import load_hmm
+# Modelo MEMM supervised
+from utils.load_memm import load_memm
 
 def get_lstm_prediction(model, input_ids):
     with torch.no_grad():
@@ -41,9 +43,9 @@ def get_transformer_prediction(model, inputs_dict):
 if __name__ == "__main__":
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
+    print("Translating PHP to IL...")
     # Traduzir de PHP para IL
-    #PHP2IL(['-s', 'input_files/php/', '-d', 'input_files/il/'])
+    PHP2IL(['-s', 'input_files/php/', '-d', 'input_files/il/'])
 
 
     # Load snippets in IL from folder 'input_files/il/'
@@ -71,6 +73,7 @@ if __name__ == "__main__":
         }
         snippets_info.append(snippet_info)
 
+    print("\n----- LSTM model output: -----")
     # Load LSTM
     lstm_model, lstm_vocab, lstm_max_len = load_lstm("lstm/lstm_model.pth", verbose=False)
     # LSTM inference
@@ -89,6 +92,8 @@ if __name__ == "__main__":
         # Chama verbose usando snippet_name e snippet_content
         verbose("LSTM", snippet['snippet_name'], snippet['snippet_content'], snippet['predicted_class'], snippet['lstm_probs'], show_snippet=False)
     
+    print("--------------------------------------")
+    print("\n----- Transformer model output: -----")
     # Load Transformers
     model_path = "transformers/with_id/transformer_model_id/"
     loaded_model, loaded_tokenizer = load_transformer_model(model_path, verbose=False)
@@ -107,8 +112,9 @@ if __name__ == "__main__":
 
         # Pass the already available snippet_name and snippet_content to verbose
         verbose("Transformer", snippet['snippet_name'], snippet['snippet_content'], snippet['predicted_class'], snippet['transformer_probs'], show_snippet=False)
+    print("--------------------------------------")
 
-
+    print("\n----- HMM unsupervised model output: -----")
     # Load HMM unsupervised
     modelo_vuln = load_hmm_from_json("hmm/hmm_unsup_vuln.json")
     modelo_nao_vuln = load_hmm_from_json("hmm/hmm_unsup_nvuln.json")
@@ -121,6 +127,7 @@ if __name__ == "__main__":
         snippet['predicted_class'], snippet['hmm_probs'] = prever_sql_injection(snippet['snippet_content'], modelo_vuln, modelo_nao_vuln, encoder)
         verbose("HMM unsupervised", snippet['snippet_name'], snippet['snippet_content'], snippet['predicted_class'], snippet['hmm_probs'], show_snippet=False)
 
+    print("--------------------------------------")
     # Heuristic confidence calculation
     acc1_hmm = 0.7
     acc2_transformer = 0.95
@@ -148,11 +155,18 @@ if __name__ == "__main__":
         print(f"  Heuristic Confidence (Vulnerable): {snippet['heuristic_confidence_v']} ({convert_to_percentage(snippet['heuristic_confidence_v'])}%)")
 
     # CMD prompt for continuing with the next steps
-    print("\nENTER to continue with the labeling of the snippets with the HMM and MEMM supervised model...")
+    print("\nPress ENTER to continue with the supervised models (HMM and MEMM)...")
     input()
 
+    print("\n----- HMM supervised model output: -----")
     # Load HMM supervised model
     for snippet in snippets_info:
         model_path = "hmm/hmm_sup_vuln.json" if snippet['predicted_class'] == 1 else "hmm/hmm_sup_nvuln.json"
         hmm_model = load_hmm(model_path, f"input_files/il/{snippet['snippet_name']}", verbose=True)
-        
+    print("--------------------------------------")
+    print("\n----- MEMM supervised model output: -----")
+    # Load MEMM supervised model
+    for snippet in snippets_info:
+        model_path = "memm/modelo_MEMM_vuln.pkl" if snippet['predicted_class'] == 1 else "memm/modelo_MEMM_nvuln.pkl"
+        memm_model = load_memm(model_path, f"input_files/il/{snippet['snippet_name']}", verbose=True)
+    print("--------------------------------------")
