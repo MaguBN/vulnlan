@@ -144,6 +144,7 @@ if __name__ == "__main__":
         snippet['heuristic_confidence_nv'] = round(confidence_scores[0], 2)
         snippet['heuristic_confidence_v'] = round(confidence_scores[1], 2)
 
+    
     # Exibir resultados
     for snippet in snippets_info:
         if snippet['heuristic_confidence_nv'] > snippet['heuristic_confidence_v']:
