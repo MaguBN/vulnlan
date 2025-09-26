@@ -1,0 +1,1300 @@
+Translating PHP to IL...
+File CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+
+----- LSTM model output: -----
+
+Analysis (LSTM) of: CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 74.41%, Vulnerable: 25.59%
+
+Analysis (LSTM) of: CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 47.48%, Vulnerable: 52.52%
+
+Analysis (LSTM) of: CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 63.10%, Vulnerable: 36.90%
+
+Analysis (LSTM) of: CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 47.17%, Vulnerable: 52.83%
+
+Analysis (LSTM) of: CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+
+Analysis (LSTM) of: CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+--------------------------------------
+
+----- Transformer model output: -----
+
+Analysis (Transformer) of: CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.92%, Vulnerable: 0.08%
+
+Analysis (Transformer) of: CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 90.54%, Vulnerable: 9.46%
+
+Analysis (Transformer) of: CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.91%, Vulnerable: 0.09%
+
+Analysis (Transformer) of: CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 95.57%, Vulnerable: 4.43%
+
+Analysis (Transformer) of: CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.92%, Vulnerable: 0.08%
+
+Analysis (Transformer) of: CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.91%, Vulnerable: 0.09%
+
+Analysis (Transformer) of: CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.84%, Vulnerable: 0.16%
+
+Analysis (Transformer) of: CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.92%, Vulnerable: 0.08%
+
+Analysis (Transformer) of: CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+
+Analysis (Transformer) of: CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.92%, Vulnerable: 0.08%
+
+Analysis (Transformer) of: CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.92%, Vulnerable: 0.08%
+
+Analysis (Transformer) of: CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.92%, Vulnerable: 0.08%
+--------------------------------------
+
+----- HMM unsupervised model output: -----
+
+Analysis (HMM unsupervised) of: CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 27.56%, Vulnerable: 72.44%
+
+Analysis (HMM unsupervised) of: CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 27.56%, Vulnerable: 72.44%
+
+Analysis (HMM unsupervised) of: CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 27.56%, Vulnerable: 72.44%
+
+Analysis (HMM unsupervised) of: CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 97.77%, Vulnerable: 2.23%
+
+Analysis (HMM unsupervised) of: CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 68.53%, Vulnerable: 31.47%
+
+Analysis (HMM unsupervised) of: CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 98.85%, Vulnerable: 1.15%
+
+Analysis (HMM unsupervised) of: CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 25.86%, Vulnerable: 74.14%
+
+Analysis (HMM unsupervised) of: CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 90.92%, Vulnerable: 9.08%
+
+Analysis (HMM unsupervised) of: CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 12.44%, Vulnerable: 87.56%
+
+Analysis (HMM unsupervised) of: CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.97%, Vulnerable: 0.03%
+
+Analysis (HMM unsupervised) of: CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 67.83%, Vulnerable: 32.17%
+
+Analysis (HMM unsupervised) of: CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 62.72%, Vulnerable: 37.28%
+
+Analysis (HMM unsupervised) of: CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.99%, Vulnerable: 0.01%
+
+Analysis (HMM unsupervised) of: CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 98.10%, Vulnerable: 1.90%
+
+Analysis (HMM unsupervised) of: CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 98.04%, Vulnerable: 1.96%
+
+Analysis (HMM unsupervised) of: CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 97.89%, Vulnerable: 2.11%
+
+Analysis (HMM unsupervised) of: CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 41.89%, Vulnerable: 58.11%
+
+Analysis (HMM unsupervised) of: CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 41.89%, Vulnerable: 58.11%
+
+Analysis (HMM unsupervised) of: CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 67.83%, Vulnerable: 32.17%
+
+Analysis (HMM unsupervised) of: CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 4.36%, Vulnerable: 95.64%
+
+Analysis (HMM unsupervised) of: CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 65.09%, Vulnerable: 34.91%
+
+Analysis (HMM unsupervised) of: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 67.29%, Vulnerable: 32.71%
+
+Analysis (HMM unsupervised) of: CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 26.87%, Vulnerable: 73.13%
+
+Analysis (HMM unsupervised) of: CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 41.54%, Vulnerable: 58.46%
+
+Analysis (HMM unsupervised) of: CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.99%, Vulnerable: 0.01%
+--------------------------------------
+Snippet: CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.07 (68.99%)
+  Heuristic Confidence (Vulnerable): 0.51 (17.0%)
+Snippet: CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Heuristic Confidence (Non-Vulnerable): 2.07 (68.99%)
+  Heuristic Confidence (Vulnerable): 0.51 (17.0%)
+Snippet: CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.07 (68.99%)
+  Heuristic Confidence (Vulnerable): 0.51 (17.0%)
+Snippet: CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.56 (85.32%)
+  Heuristic Confidence (Vulnerable): 0.02 (0.67%)
+Snippet: CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il
+  Heuristic Confidence (Non-Vulnerable): 2.36 (78.66%)
+  Heuristic Confidence (Vulnerable): 0.22 (7.33%)
+Snippet: CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.57 (85.66%)
+  Heuristic Confidence (Vulnerable): 0.01 (0.33%)
+Snippet: CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.06 (68.66%)
+  Heuristic Confidence (Vulnerable): 0.52 (17.33%)
+Snippet: CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.52 (83.99%)
+  Heuristic Confidence (Vulnerable): 0.06 (2.0%)
+Snippet: CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il
+  Heuristic Confidence (Non-Vulnerable): 1.64 (54.66%)
+  Heuristic Confidence (Vulnerable): 0.94 (31.33%)
+Snippet: CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.58 (85.99%)
+  Heuristic Confidence (Vulnerable): 0.0 (0.0%)
+Snippet: CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.35 (78.33%)
+  Heuristic Confidence (Vulnerable): 0.23 (7.67%)
+Snippet: CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 1.79 (59.66%)
+  Heuristic Confidence (Vulnerable): 0.79 (26.33%)
+Snippet: CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.58 (85.99%)
+  Heuristic Confidence (Vulnerable): 0.0 (0.0%)
+Snippet: CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.57 (85.66%)
+  Heuristic Confidence (Vulnerable): 0.01 (0.33%)
+Snippet: CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.22 (73.99%)
+  Heuristic Confidence (Vulnerable): 0.36 (12.0%)
+Snippet: CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.56 (85.32%)
+  Heuristic Confidence (Vulnerable): 0.02 (0.67%)
+Snippet: CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.17 (72.33%)
+  Heuristic Confidence (Vulnerable): 0.41 (13.67%)
+Snippet: CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.17 (72.33%)
+  Heuristic Confidence (Vulnerable): 0.41 (13.67%)
+Snippet: CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.35 (78.33%)
+  Heuristic Confidence (Vulnerable): 0.23 (7.67%)
+Snippet: CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 1.91 (63.66%)
+  Heuristic Confidence (Vulnerable): 0.67 (22.33%)
+Snippet: CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Heuristic Confidence (Non-Vulnerable): 2.33 (77.66%)
+  Heuristic Confidence (Vulnerable): 0.25 (8.33%)
+Snippet: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+  Heuristic Confidence (Non-Vulnerable): 2.35 (78.33%)
+  Heuristic Confidence (Vulnerable): 0.23 (7.67%)
+Snippet: CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il
+  Heuristic Confidence (Non-Vulnerable): 1.58 (52.66%)
+  Heuristic Confidence (Vulnerable): 1.0 (33.33%)
+Snippet: CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il
+  Heuristic Confidence (Non-Vulnerable): 2.17 (72.33%)
+  Heuristic Confidence (Vulnerable): 0.41 (13.67%)
+Snippet: CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.58 (85.99%)
+  Heuristic Confidence (Vulnerable): 0.0 (0.0%)
+
+----- HMM supervised model output: -----
+
+Ficheiro: CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+var1::taint  array::und 
+var1_0::taint 
+var1_1::taint  GET::taint 
+var1_2::taint 
+var2::taint  var1_1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+var1::taint  array::und 
+var1_0::taint 
+var1_1::taint  GET::taint 
+var1_2::taint 
+var2::taint  var1_1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+var1::taint  array::und 
+var1_0::taint 
+var1_1::taint  GET::taint 
+var1_2::taint 
+var2::taint  var1_1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+var1::taint  array::und 
+var1_0::taint 
+var1_1::taint  GET::taint 
+var1_2::taint 
+var2::taint  var1_1::taint 
+class::taint  class_name1::taint 
+public::taint  function::taint  function_name1::taint  var3::taint 
+return::ntaint  mysql_real_escape_string::san  var3::taint 
+var4::ntaint  new::ntaint  class_name1::ntaint 
+var2::ntaint  var4->function_name1::ntaint  var2::ntaint 
+var5::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var6::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::und 
+var7::ntaint  mysql_query::ntaint  var5::ntaint 
+loop::ntaint  var8::ntaint  mysql_fetch_array::ntaint  var7::ntaint 
+print_r::ntaint  var8::ntaint 
+echo::und 
+mysql_close::ntaint  var6::ntaint 
+
+Ficheiro: CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il
+var1::taint  exec::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+
+Ficheiro: CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+var1::taint  exec::taint 
+class::taint  class_name1::taint 
+public::taint  function::taint  function_name1::taint  var2::taint 
+return::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  new::ntaint  class_name1::ntaint 
+var1::ntaint  var3->function_name1::ntaint  var1::ntaint 
+var4::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var5::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var4::und 
+var6::ntaint  mysql_query::ntaint  var4::ntaint 
+loop::ntaint  var7::ntaint  mysql_fetch_array::ntaint  var6::ntaint 
+print_r::ntaint  var7::ntaint 
+echo::und 
+mysql_close::ntaint  var5::ntaint 
+
+Ficheiro: CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+var1::taint 
+exec::taint  var1::taint  var2::taint  var3::taint 
+var4::taint  var2_0::taint 
+var4::ntaint  mysql_real_escape_string::san  var4::taint 
+var5::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var4::ntaint 
+var6::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::und 
+var7::ntaint  mysql_query::ntaint  var5::ntaint 
+loop::ntaint  var8::ntaint  mysql_fetch_array::ntaint  var7::ntaint 
+print_r::ntaint  var8::ntaint 
+echo::und 
+mysql_close::ntaint  var6::ntaint 
+
+Ficheiro: CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il
+var1::taint 
+exec::taint  var1::taint  var2::taint  var3::taint 
+var4::taint  var2_0::taint 
+class::taint  class_name1::taint 
+public::taint  function::taint  function_name1::taint  var5::taint 
+return::ntaint  mysql_real_escape_string::san  var5::taint 
+var6::ntaint  new::ntaint  class_name1::ntaint 
+var4::ntaint  var6->function_name1::ntaint  var4::ntaint 
+var7::ntaint  SQL_QUERY::ntaint  var4::ntaint 
+var8::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var7::und 
+var9::ntaint  mysql_query::ntaint  var7::ntaint 
+loop::ntaint  var10::ntaint  mysql_fetch_array::ntaint  var9::ntaint 
+print_r::ntaint  var10::ntaint 
+echo::und 
+mysql_close::ntaint  var8::ntaint 
+
+Ficheiro: CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il
+var1::taint  fopen::taint 
+if::und  var1::taint 
+if::und  var2::taint  fgets::taint  var1::taint  4096::und  false::und 
+var2::ntaint 
+fclose::und  var1::ntaint 
+else::und 
+var2::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+var1::taint  fopen::taint 
+if::und  var1::taint 
+if::und  var2::taint  fgets::taint  var1::taint  4096::und  false::und 
+var2::ntaint 
+fclose::und  var1::ntaint 
+else::und 
+var2::taint 
+class::taint  class_name1::taint 
+private::taint  var3::taint 
+public::taint  function::taint  function_name1::taint  var4::taint 
+var5->data::taint  var4::taint 
+public::taint  function::taint  function_name2::taint 
+return::taint  var5->data::taint 
+public::taint  function::taint  function_name3::taint 
+var5->data::ntaint  mysql_real_escape_string::san  var5->data::taint 
+var6::ntaint  new::ntaint  class_name1::ntaint  var2::ntaint 
+var6->function_name3::ntaint 
+var2::ntaint  var6->function_name2::ntaint 
+var7::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var8::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var7::und 
+var9::ntaint  mysql_query::ntaint  var7::ntaint 
+loop::ntaint  var3::ntaint  mysql_fetch_array::ntaint  var9::ntaint 
+print_r::ntaint  var3::ntaint 
+echo::und 
+mysql_close::ntaint  var8::ntaint 
+
+Ficheiro: CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+var1::taint  GET::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+
+Ficheiro: CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il
+var1::taint  GET::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+
+Ficheiro: CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+var1::taint  GET::taint 
+class::taint  class_name1::taint 
+private::taint  var2::taint 
+public::taint  function::taint  function_name1::taint  var3::taint 
+var4->data::taint  var3::taint 
+public::taint  function::taint  function_name2::taint 
+return::taint  var4->data::taint 
+public::taint  function::taint  function_name3::taint 
+var4->data::ntaint  mysql_real_escape_string::san  var4->data::taint 
+var5::ntaint  new::ntaint  class_name1::ntaint  var1::ntaint 
+var5->function_name3::ntaint 
+var1::ntaint  var5->function_name2::ntaint 
+var6::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var7::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::und 
+var8::ntaint  mysql_query::ntaint  var6::ntaint 
+loop::ntaint  var2::ntaint  mysql_fetch_array::ntaint  var8::ntaint 
+print_r::ntaint  var2::ntaint 
+echo::und 
+mysql_close::ntaint  var7::ntaint 
+
+Ficheiro: CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+class::san  class_name1::taint 
+private::ntaint  var1::ntaint 
+public::ntaint  function::ntaint  function_name1::ntaint 
+return::ntaint  var2->input_1::ntaint 
+public::ntaint  function::ntaint  function_name2::ntaint 
+var2->input::taint  array::und 
+var2->input_0::taint 
+var2->input_1::taint  GET::taint 
+var2->input_2::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var4::ntaint  mysql_real_escape_string::san  var4::taint 
+var5::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var4::ntaint 
+var6::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::und 
+var7::ntaint  mysql_query::ntaint  var5::ntaint 
+loop::ntaint  var8::ntaint  mysql_fetch_array::ntaint  var7::ntaint 
+print_r::ntaint  var8::ntaint 
+echo::und 
+mysql_close::ntaint  var6::ntaint 
+
+Ficheiro: CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il
+class::san  class_name1::taint 
+private::ntaint  var1::ntaint 
+public::ntaint  function::ntaint  function_name1::ntaint 
+return::ntaint  var2->input_1::ntaint 
+public::ntaint  function::ntaint  function_name2::ntaint 
+var2->input::taint  array::und 
+var2->input_0::taint 
+var2->input_1::taint  GET::taint 
+var2->input_2::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var4::ntaint  mysql_real_escape_string::san  var4::taint 
+var5::ntaint  SQL_QUERY::ntaint  var4::ntaint 
+var6::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::und 
+var7::ntaint  mysql_query::ntaint  var5::ntaint 
+loop::ntaint  var8::ntaint  mysql_fetch_array::ntaint  var7::ntaint 
+print_r::ntaint  var8::ntaint 
+echo::und 
+mysql_close::ntaint  var6::ntaint 
+
+Ficheiro: CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il
+class::taint  class_name1::taint 
+private::taint  var1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  var2->input::taint 
+public::taint  function::taint  function_name2::taint 
+var2->input::taint  GET::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var4::ntaint  mysql_real_escape_string::san  var4::taint 
+var5::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var4::ntaint 
+var6::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::und 
+var7::ntaint  mysql_query::ntaint  var5::ntaint 
+loop::ntaint  var8::ntaint  mysql_fetch_array::ntaint  var7::ntaint 
+print_r::ntaint  var8::ntaint 
+echo::und 
+mysql_close::ntaint  var6::ntaint 
+
+Ficheiro: CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il
+var1::taint  popen::taint 
+var2::taint  fread::taint  var1::taint  4096::taint 
+pclose::taint  var1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+var1::taint  popen::taint 
+var2::taint  fread::taint  var1::taint  4096::taint 
+pclose::taint  var1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+var1::taint  POST::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+
+Ficheiro: CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+var1::und  array::und 
+0::und  array::und 
+1::und  array::und 
+2::und  array::und 
+var2::und 
+var3::taint  proc_open::taint  var1::taint  var4::taint  var2::taint  NULL::und 
+if::und  is_resource::und  var3::taint 
+fclose::und  var4_0::und 
+var5::ntaint  stream_get_contents::und  var4_1::und 
+fclose::und  var4_1::ntaint 
+var6::taint  proc_close::und  var3::und 
+var5::ntaint  mysql_real_escape_string::san  var5::taint 
+var7::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var5::ntaint 
+var8::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var7::und 
+var9::ntaint  mysql_query::ntaint  var7::ntaint 
+loop::ntaint  var10::ntaint  mysql_fetch_array::ntaint  var9::ntaint 
+print_r::ntaint  var10::ntaint 
+echo::und 
+mysql_close::ntaint  var8::ntaint 
+
+Ficheiro: CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+var1::taint  SESSION::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+
+Ficheiro: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+var1::taint  shell_exec::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+
+Ficheiro: CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il
+var1::taint  system::taint  var2::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il
+var1::taint  POST::taint 
+var2::taint  unserialize::taint  var1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il
+var1::taint  POST::taint 
+var2::taint  unserialize::taint  var1::taint 
+class::taint  class_name1::taint 
+private::taint  var3::taint 
+public::taint  function::taint  function_name1::taint  var4::taint 
+var5->data::taint  var4::taint 
+public::taint  function::taint  function_name2::taint 
+return::taint  var5->data::taint 
+public::taint  function::taint  function_name3::taint 
+var5->data::ntaint  mysql_real_escape_string::san  var5->data::taint 
+var6::ntaint  new::ntaint  class_name1::ntaint  var2::ntaint 
+var6->function_name3::ntaint 
+var2::ntaint  var6->function_name2::ntaint 
+var7::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var8::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var7::und 
+var9::ntaint  mysql_query::ntaint  var7::ntaint 
+loop::ntaint  var3::ntaint  mysql_fetch_array::ntaint  var9::ntaint 
+print_r::ntaint  var3::ntaint 
+echo::und 
+mysql_close::ntaint  var8::ntaint 
+--------------------------------------
+
+----- MEMM supervised model output: -----
+
+Ficheiro: CWE_89__array-GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+var1::ntaint array::und
+var1_0::ntaint
+var1_1::ntaint GET::ntaint
+var1_2::ntaint
+var2::ntaint var1_1::ntaint
+var2::ntaint mysql_real_escape_string::san var2::ntaint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__array-GET__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+var1::ntaint array::und
+var1_0::ntaint
+var1_1::ntaint GET::ntaint
+var1_2::ntaint
+var2::ntaint var1_1::ntaint
+var2::ntaint mysql_real_escape_string::san var2::ntaint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__array-GET__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+var1::ntaint array::und
+var1_0::ntaint
+var1_1::ntaint GET::ntaint
+var1_2::ntaint
+var2::ntaint var1_1::ntaint
+var2::ntaint mysql_real_escape_string::san var2::ntaint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__array-GET__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+var1::ntaint array::und
+var1_0::ntaint
+var1_1::ntaint GET::ntaint
+var1_2::ntaint
+var2::ntaint var1_1::ntaint
+class::ntaint class_name1::ntaint
+public::ntaint function::ntaint function_name1::ntaint var3::ntaint
+return::ntaint mysql_real_escape_string::san var3::ntaint
+var4::ntaint new::ntaint class_name1::ntaint
+var2::ntaint var4->function_name1::ntaint var2::ntaint
+var5::ntaint SQL_QUERY::ntaint var2::ntaint
+var6::und mysql_connect::und
+mysql_select_db::und
+echo::und var5::und
+var7::ntaint mysql_query::ntaint var5::ntaint
+loop::ntaint var8::ntaint mysql_fetch_array::ntaint var7::ntaint
+print_r::ntaint var8::ntaint
+echo::und
+mysql_close::und var6::und
+
+Ficheiro: CWE_89__backticks__func_mysql_real_escape_string__multiple_AS-sprintf_u.il
+var1::taint exec::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+
+Ficheiro: CWE_89__backticks__object-func_mysql_real_escape_string__join-interpretation_simple_quote.il
+var1::taint exec::taint
+class::taint class_name1::taint
+public::taint function::taint function_name1::taint var2::taint
+return::ntaint mysql_real_escape_string::san var2::taint
+var3::ntaint new::ntaint class_name1::ntaint
+var1::ntaint var3->function_name1::ntaint var1::ntaint
+var4::ntaint SQL_QUERY::ntaint var1::ntaint
+var5::und mysql_connect::und
+mysql_select_db::und
+echo::und var4::und
+var6::ntaint mysql_query::ntaint var4::ntaint
+loop::ntaint var7::ntaint mysql_fetch_array::ntaint var6::ntaint
+print_r::ntaint var7::ntaint
+echo::und
+mysql_close::und var5::und
+
+Ficheiro: CWE_89__exec__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+var1::taint
+exec::taint var1::taint var2::taint var3::taint
+var4::taint var2_0::taint
+var4::ntaint mysql_real_escape_string::san var4::taint
+var5::ntaint sprintf::ntaint SQL_QUERY::ntaint var4::ntaint
+var6::und mysql_connect::und
+mysql_select_db::und
+echo::und var5::und
+var7::ntaint mysql_query::ntaint var5::ntaint
+loop::ntaint var8::ntaint mysql_fetch_array::ntaint var7::ntaint
+print_r::ntaint var8::ntaint
+echo::und
+mysql_close::und var6::und
+
+Ficheiro: CWE_89__exec__object-func_mysql_real_escape_string__select_from-interpretation_simple_quote.il
+var1::taint
+exec::taint var1::taint var2::taint var3::taint
+var4::taint var2_0::taint
+class::taint class_name1::taint
+public::taint function::taint function_name1::taint var5::taint
+return::ntaint mysql_real_escape_string::san var5::taint
+var6::ntaint new::ntaint class_name1::ntaint
+var4::ntaint var6->function_name1::ntaint var4::ntaint
+var7::ntaint SQL_QUERY::ntaint var4::ntaint
+var8::und mysql_connect::und
+mysql_select_db::und
+echo::und var7::und
+var9::ntaint mysql_query::ntaint var7::ntaint
+loop::ntaint var10::ntaint mysql_fetch_array::ntaint var9::ntaint
+print_r::ntaint var10::ntaint
+echo::und
+mysql_close::und var8::und
+
+Ficheiro: CWE_89__fopen__func_mysql_real_escape_string__multiple_AS-interpretation.il
+var1::taint fopen::taint
+if::und var1::taint
+if::ntaint var2::ntaint fgets::ntaint var1::ntaint 4096::und false::und
+var2::ntaint
+fclose::ntaint var1::ntaint
+else::ntaint
+var2::ntaint
+var2::ntaint mysql_real_escape_string::san var2::ntaint
+var3::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__fopen__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+var1::taint fopen::taint
+if::und var1::taint
+if::ntaint var2::ntaint fgets::ntaint var1::ntaint 4096::und false::und
+var2::ntaint
+fclose::ntaint var1::ntaint
+else::ntaint
+var2::ntaint
+class::ntaint class_name1::ntaint
+private::ntaint var3::ntaint
+public::ntaint function::ntaint function_name1::ntaint var4::ntaint
+var5->data::und var4::ntaint
+public::und function::und function_name2::und
+return::und var5->data::und
+public::und function::und function_name3::und
+var5->data::ntaint mysql_real_escape_string::san var5->data::und
+var6::ntaint new::ntaint class_name1::ntaint var2::ntaint
+var6->function_name3::ntaint
+var2::ntaint var6->function_name2::ntaint
+var7::ntaint SQL_QUERY::ntaint var2::ntaint
+var8::und mysql_connect::und
+mysql_select_db::und
+echo::und var7::und
+var9::ntaint mysql_query::ntaint var7::ntaint
+loop::ntaint var3::ntaint mysql_fetch_array::ntaint var9::ntaint
+print_r::ntaint var3::ntaint
+echo::und
+mysql_close::und var8::und
+
+Ficheiro: CWE_89__GET__func_mysql_real_escape_string__multiple_AS-sprintf_s_simple_quote.il
+var1::taint GET::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+
+Ficheiro: CWE_89__GET__func_mysql_real_escape_string__multiple_select-concatenation_simple_quote.il
+var1::taint GET::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+
+Ficheiro: CWE_89__GET__object-func_mysql_real_escape_stringGetter__join-concatenation_simple_quote.il
+var1::taint GET::taint
+class::taint class_name1::taint
+private::taint var2::taint
+public::taint function::taint function_name1::taint var3::taint
+var4->data::und var3::taint
+public::und function::und function_name2::und
+return::und var4->data::und
+public::und function::und function_name3::und
+var4->data::ntaint mysql_real_escape_string::san var4->data::und
+var5::ntaint new::ntaint class_name1::ntaint var1::ntaint
+var5->function_name3::ntaint
+var1::ntaint var5->function_name2::ntaint
+var6::ntaint SQL_QUERY::ntaint var1::ntaint
+var7::und mysql_connect::und
+mysql_select_db::und
+echo::und var6::und
+var8::ntaint mysql_query::ntaint var6::ntaint
+loop::ntaint var2::ntaint mysql_fetch_array::ntaint var8::ntaint
+print_r::ntaint var2::ntaint
+echo::und
+mysql_close::und var7::und
+
+Ficheiro: CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+class::und class_name1::und
+private::und var1::und
+public::und function::und function_name1::und
+return::und var2->input_1::und
+public::und function::und function_name2::und
+var2->input::und array::und
+var2->input_0::und
+var2->input_1::taint GET::taint
+var2->input_2::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var4::ntaint mysql_real_escape_string::san var4::taint
+var5::ntaint sprintf::ntaint SQL_QUERY::ntaint var4::ntaint
+var6::und mysql_connect::und
+mysql_select_db::und
+echo::und var5::und
+var7::ntaint mysql_query::ntaint var5::ntaint
+loop::ntaint var8::ntaint mysql_fetch_array::ntaint var7::ntaint
+print_r::ntaint var8::ntaint
+echo::und
+mysql_close::und var6::und
+
+Ficheiro: CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-concatenation_simple_quote.il
+class::und class_name1::und
+private::und var1::und
+public::und function::und function_name1::und
+return::und var2->input_1::und
+public::und function::und function_name2::und
+var2->input::und array::und
+var2->input_0::und
+var2->input_1::taint GET::taint
+var2->input_2::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var4::ntaint mysql_real_escape_string::san var4::taint
+var5::ntaint SQL_QUERY::ntaint var4::ntaint
+var6::und mysql_connect::und
+mysql_select_db::und
+echo::und var5::und
+var7::ntaint mysql_query::ntaint var5::ntaint
+loop::ntaint var8::ntaint mysql_fetch_array::ntaint var7::ntaint
+print_r::ntaint var8::ntaint
+echo::und
+mysql_close::und var6::und
+
+Ficheiro: CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-sprintf_u_simple_quote.il
+class::und class_name1::und
+private::und var1::und
+public::und function::und function_name1::und
+return::und var2->input::und
+public::und function::und function_name2::und
+var2->input::taint GET::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var4::ntaint mysql_real_escape_string::san var4::taint
+var5::ntaint sprintf::ntaint SQL_QUERY::ntaint var4::ntaint
+var6::und mysql_connect::und
+mysql_select_db::und
+echo::und var5::und
+var7::ntaint mysql_query::ntaint var5::ntaint
+loop::ntaint var8::ntaint mysql_fetch_array::ntaint var7::ntaint
+print_r::ntaint var8::ntaint
+echo::und
+mysql_close::und var6::und
+
+Ficheiro: CWE_89__popen__func_mysql_real_escape_string__multiple_select-sprintf_d_simple_quote.il
+var1::taint popen::taint
+var2::ntaint fread::ntaint var1::ntaint 4096::und
+pclose::ntaint var1::ntaint
+var2::ntaint mysql_real_escape_string::san var2::ntaint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__popen__func_mysql_real_escape_string__select_from_where-sprintf_d_simple_quote.il
+var1::taint popen::taint
+var2::ntaint fread::ntaint var1::ntaint 4096::und
+pclose::ntaint var1::ntaint
+var2::ntaint mysql_real_escape_string::san var2::ntaint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__POST__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+var1::taint POST::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+
+Ficheiro: CWE_89__proc_open__func_mysql_real_escape_string__multiple_select-sprintf_s_simple_quote.il
+var1::und array::und
+0::und array::und
+1::und array::und
+2::und array::und
+var2::ntaint
+var3::ntaint proc_open::ntaint var1::ntaint var4::ntaint var2::ntaint NULL::ntaint
+if::und is_resource::und var3::ntaint
+fclose::und var4_0::und
+var5::ntaint stream_get_contents::ntaint var4_1::ntaint
+fclose::ntaint var4_1::ntaint
+var6::ntaint proc_close::ntaint var3::ntaint
+var5::ntaint mysql_real_escape_string::san var5::ntaint
+var7::ntaint sprintf::ntaint SQL_QUERY::ntaint var5::ntaint
+var8::und mysql_connect::und
+mysql_select_db::und
+echo::und var7::und
+var9::ntaint mysql_query::ntaint var7::ntaint
+loop::ntaint var10::ntaint mysql_fetch_array::ntaint var9::ntaint
+print_r::ntaint var10::ntaint
+echo::und
+mysql_close::und var8::und
+
+Ficheiro: CWE_89__SESSION__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+var1::taint SESSION::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+
+Ficheiro: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_d.il
+var1::taint shell_exec::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+
+Ficheiro: CWE_89__system__func_mysql_real_escape_string__select_from_where-sprintf_u.il
+var1::taint system::taint var2::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-sprintf_d.il
+var1::taint POST::taint
+var2::taint unserialize::taint var1::taint
+var2::ntaint mysql_real_escape_string::san var2::taint
+var3::ntaint sprintf::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__unserialize__object-func_mysql_real_escape_stringGetter__join-interpretation_simple_quote.il
+var1::taint POST::taint
+var2::taint unserialize::taint var1::taint
+class::taint class_name1::taint
+private::taint var3::taint
+public::taint function::taint function_name1::taint var4::taint
+var5->data::und var4::taint
+public::und function::und function_name2::und
+return::und var5->data::und
+public::und function::und function_name3::und
+var5->data::ntaint mysql_real_escape_string::san var5->data::und
+var6::ntaint new::ntaint class_name1::ntaint var2::ntaint
+var6->function_name3::ntaint
+var2::ntaint var6->function_name2::ntaint
+var7::ntaint SQL_QUERY::ntaint var2::ntaint
+var8::und mysql_connect::und
+mysql_select_db::und
+echo::und var7::und
+var9::ntaint mysql_query::ntaint var7::ntaint
+loop::ntaint var3::ntaint mysql_fetch_array::ntaint var9::ntaint
+print_r::ntaint var3::ntaint
+echo::und
+mysql_close::und var8::und
+--------------------------------------

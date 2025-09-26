@@ -45,7 +45,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Translating PHP to IL...")
     # Traduzir de PHP para IL
-    PHP2IL(['-s', 'input_files/php/', '-d', 'input_files/il/'])
+    PHP2IL(['-s', 'input_files/Safe/', '-d', 'input_files/il/'])
 
 
     # Load snippets in IL from folder 'input_files/il/'
@@ -156,8 +156,8 @@ if __name__ == "__main__":
         print(f"  Heuristic Confidence (Vulnerable): {snippet['heuristic_confidence_v']} ({convert_to_percentage(snippet['heuristic_confidence_v'])}%)")
 
     # CMD prompt for continuing with the next steps
-    print("\nPress ENTER to continue with the supervised models (HMM and MEMM)...")
-    input()
+    #print("\nPress ENTER to continue with the supervised models (HMM and MEMM)...")
+    #input()
 
     print("\n----- HMM supervised model output: -----")
     # Load HMM supervised model

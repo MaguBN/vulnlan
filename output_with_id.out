@@ -1,0 +1,102 @@
+Translating PHP to IL...
+File CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+
+----- LSTM model output: -----
+
+Analysis (LSTM) of: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.98%, Vulnerable: 0.02%
+--------------------------------------
+
+----- Transformer model output: -----
+
+Analysis (Transformer) of: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.93%, Vulnerable: 0.07%
+--------------------------------------
+
+----- HMM unsupervised model output: -----
+
+Analysis (HMM unsupervised) of: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 19.37%, Vulnerable: 80.63%
+
+Analysis (HMM unsupervised) of: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 67.29%, Vulnerable: 32.71%
+--------------------------------------
+Snippet: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.14 (4.67%)
+  Heuristic Confidence (Vulnerable): 2.44 (81.33%)
+Snippet: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 2.35 (78.33%)
+  Heuristic Confidence (Vulnerable): 0.23 (7.67%)
+
+----- HMM supervised model output: -----
+
+Ficheiro: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+var1::taint  popen::taint 
+var2::taint  fread::taint  var1::taint  4096::und 
+pclose::und  var1::taint 
+var3::taint  SQL_QUERY::taint  var2::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+var1::taint  shell_exec::taint 
+var1::ntaint  mysql_real_escape_string::san  var1::taint 
+var2::ntaint  sprintf::ntaint  SQL_QUERY::ntaint  var1::ntaint 
+var3::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::und 
+var4::ntaint  mysql_query::ntaint  var2::ntaint 
+loop::ntaint  var5::ntaint  mysql_fetch_array::ntaint  var4::ntaint 
+print_r::ntaint  var5::ntaint 
+echo::und 
+mysql_close::ntaint  var3::ntaint 
+--------------------------------------
+
+----- MEMM supervised model output: -----
+
+Ficheiro: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+var1::taint popen::taint
+var2::taint fread::taint var1::taint 4096::und
+pclose::und var1::taint
+var3::taint SQL_QUERY::taint var2::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-sprintf_u_simple_quote.il
+var1::taint shell_exec::taint
+var1::ntaint mysql_real_escape_string::san var1::taint
+var2::ntaint sprintf::ntaint SQL_QUERY::ntaint var1::ntaint
+var3::und mysql_connect::und
+mysql_select_db::und
+echo::und var2::und
+var4::ntaint mysql_query::ntaint var2::ntaint
+loop::ntaint var5::ntaint mysql_fetch_array::ntaint var4::ntaint
+print_r::ntaint var5::ntaint
+echo::und
+mysql_close::und var3::und
+--------------------------------------

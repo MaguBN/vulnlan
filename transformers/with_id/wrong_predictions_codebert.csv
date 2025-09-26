@@ -1,5 +1,5 @@
 file_name,file_content_in_il,vulnerable,predicted
-CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-interpretation.il,"class class_name1
+CWE_89__object-Array__func_mysql_real_escape_string__multiple_AS-concatenation.il,"class class_name1
   private var1
   public function function_name1
     return var2->input_1
@@ -20,7 +20,19 @@ loop var8 mysql_fetch_array var7
   print_r var8
   echo
 mysql_close var6",1,0
-CWE_89__shell_exec__func_mysql_real_escape_string__multiple_select-interpretation.il,"var1 shell_exec
+CWE_89__unserialize__func_mysql_real_escape_string__select_from_where-concatenation.il,"var1 POST
+var2 unserialize var1
+var2 mysql_real_escape_string var2
+var3 SQL_QUERY var2
+var4 mysql_connect
+mysql_select_db
+echo var3
+var5 mysql_query var3
+loop var6 mysql_fetch_array var5
+  print_r var6
+  echo
+mysql_close var4",1,0
+CWE_89__POST__func_mysql_real_escape_string__select_from_where-interpretation.il,"var1 POST
 var1 mysql_real_escape_string var1
 var2 SQL_QUERY var1
 var3 mysql_connect
@@ -31,27 +43,6 @@ loop var5 mysql_fetch_array var4
   print_r var5
   echo
 mysql_close var3",1,0
-CWE_89__proc_open__func_mysql_real_escape_string__multiple_AS-interpretation.il,"var1 array
-0 array
-1 array
-2 array
-var2
-var3 proc_open var1 var4 var2 NULL
-if is_resource var3
-  fclose var4_0
-  var5 stream_get_contents var4_1
-  fclose var4_1
-  var6 proc_close var3
-var5 mysql_real_escape_string var5
-var7 SQL_QUERY var5
-var8 mysql_connect
-mysql_select_db
-echo var7
-var9 mysql_query var7
-loop var10 mysql_fetch_array var9
-  print_r var10
-  echo
-mysql_close var8",1,0
 CWE_89__object-classicGet__func_mysql_real_escape_string__select_from_where-concatenation.il,"class class_name1
   private var1
   public function function_name1
@@ -70,15 +61,54 @@ loop var8 mysql_fetch_array var7
   print_r var8
   echo
 mysql_close var6",1,0
-CWE_89__object-indexArray__func_mysql_real_escape_string__multiple_select-interpretation.il,"class class_name1
+CWE_89__object-Array__func_mysql_real_escape_string__multiple_select-interpretation.il,"class class_name1
+  private var1
+  public function function_name1
+    return var2->input_1
+  public function function_name2
+    var2->input array
+    var2->input_0
+    var2->input_1 GET
+    var2->input_2
+var3 new class_name1
+var4 var3->function_name1
+var4 mysql_real_escape_string var4
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6",1,0
+CWE_89__object-classicGet__func_mysql_real_escape_string__multiple_AS-interpretation.il,"class class_name1
   private var1
   public function function_name1
     return var2->input
   public function function_name2
-    var2->input array
-    var2->input
     var2->input GET
-    var2->input
+var3 new class_name1
+var4 var3->function_name1
+var4 mysql_real_escape_string var4
+var5 SQL_QUERY var4
+var6 mysql_connect
+mysql_select_db
+echo var5
+var7 mysql_query var5
+loop var8 mysql_fetch_array var7
+  print_r var8
+  echo
+mysql_close var6",1,0
+CWE_89__object-Array__func_mysql_real_escape_string__select_from_where-interpretation.il,"class class_name1
+  private var1
+  public function function_name1
+    return var2->input_1
+  public function function_name2
+    var2->input array
+    var2->input_0
+    var2->input_1 GET
+    var2->input_2
 var3 new class_name1
 var4 var3->function_name1
 var4 mysql_real_escape_string var4

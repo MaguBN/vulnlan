@@ -1,0 +1,1280 @@
+Translating PHP to IL...
+File CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__system__no_sanitizing__multiple_AS-concatenation.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+File CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il written in C:\Users\jorge\Desktop\vulnlan\input_files\il/.
+
+----- LSTM model output: -----
+
+Analysis (LSTM) of: CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 59.24%, Vulnerable: 40.76%
+
+Analysis (LSTM) of: CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 64.64%, Vulnerable: 35.36%
+
+Analysis (LSTM) of: CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.20%, Vulnerable: 99.80%
+
+Analysis (LSTM) of: CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 21.46%, Vulnerable: 78.54%
+
+Analysis (LSTM) of: CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__system__no_sanitizing__multiple_AS-concatenation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+
+Analysis (LSTM) of: CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.19%, Vulnerable: 99.81%
+--------------------------------------
+
+----- Transformer model output: -----
+
+Analysis (Transformer) of: CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 88.92%, Vulnerable: 11.08%
+
+Analysis (Transformer) of: CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.15%, Vulnerable: 99.85%
+
+Analysis (Transformer) of: CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.08%, Vulnerable: 99.92%
+
+Analysis (Transformer) of: CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.10%, Vulnerable: 99.90%
+
+Analysis (Transformer) of: CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 99.78%, Vulnerable: 0.22%
+
+Analysis (Transformer) of: CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.28%, Vulnerable: 99.72%
+
+Analysis (Transformer) of: CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.04%, Vulnerable: 99.96%
+
+Analysis (Transformer) of: CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.09%, Vulnerable: 99.91%
+
+Analysis (Transformer) of: CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.21%, Vulnerable: 99.79%
+
+Analysis (Transformer) of: CWE_89__system__no_sanitizing__multiple_AS-concatenation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.03%, Vulnerable: 99.97%
+
+Analysis (Transformer) of: CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.09%, Vulnerable: 99.91%
+--------------------------------------
+
+----- HMM unsupervised model output: -----
+
+Analysis (HMM unsupervised) of: CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 2.62%, Vulnerable: 97.38%
+
+Analysis (HMM unsupervised) of: CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 7.84%, Vulnerable: 92.16%
+
+Analysis (HMM unsupervised) of: CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 1.08%, Vulnerable: 98.92%
+
+Analysis (HMM unsupervised) of: CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 25.27%, Vulnerable: 74.73%
+
+Analysis (HMM unsupervised) of: CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 15.50%, Vulnerable: 84.50%
+
+Analysis (HMM unsupervised) of: CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 0.07%, Vulnerable: 99.93%
+
+Analysis (HMM unsupervised) of: CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 4.61%, Vulnerable: 95.39%
+
+Analysis (HMM unsupervised) of: CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 7.58%, Vulnerable: 92.42%
+
+Analysis (HMM unsupervised) of: CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 1.04%, Vulnerable: 98.96%
+
+Analysis (HMM unsupervised) of: CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 3.08%, Vulnerable: 96.92%
+
+Analysis (HMM unsupervised) of: CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 61.64%, Vulnerable: 38.36%
+
+Analysis (HMM unsupervised) of: CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 36.41%, Vulnerable: 63.59%
+
+Analysis (HMM unsupervised) of: CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 16.82%, Vulnerable: 83.18%
+
+Analysis (HMM unsupervised) of: CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 31.32%, Vulnerable: 68.68%
+
+Analysis (HMM unsupervised) of: CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 29.28%, Vulnerable: 70.72%
+
+Analysis (HMM unsupervised) of: CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il
+  Prediction: Not Vulnerable
+  Probabilities: Not Vulnerable: 98.85%, Vulnerable: 1.15%
+
+Analysis (HMM unsupervised) of: CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 23.63%, Vulnerable: 76.37%
+
+Analysis (HMM unsupervised) of: CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 4.86%, Vulnerable: 95.14%
+
+Analysis (HMM unsupervised) of: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 19.37%, Vulnerable: 80.63%
+
+Analysis (HMM unsupervised) of: CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 6.90%, Vulnerable: 93.10%
+
+Analysis (HMM unsupervised) of: CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 34.12%, Vulnerable: 65.88%
+
+Analysis (HMM unsupervised) of: CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 2.38%, Vulnerable: 97.62%
+
+Analysis (HMM unsupervised) of: CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 10.81%, Vulnerable: 89.19%
+
+Analysis (HMM unsupervised) of: CWE_89__system__no_sanitizing__multiple_AS-concatenation.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 10.86%, Vulnerable: 89.14%
+
+Analysis (HMM unsupervised) of: CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il
+  Prediction: Vulnerable
+  Probabilities: Not Vulnerable: 19.38%, Vulnerable: 80.62%
+--------------------------------------
+Snippet: CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.02 (0.67%)
+  Heuristic Confidence (Vulnerable): 2.56 (85.32%)
+Snippet: CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.06 (2.0%)
+  Heuristic Confidence (Vulnerable): 2.52 (83.99%)
+Snippet: CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.01 (0.33%)
+  Heuristic Confidence (Vulnerable): 2.57 (85.66%)
+Snippet: CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il
+  Heuristic Confidence (Non-Vulnerable): 1.57 (52.33%)
+  Heuristic Confidence (Vulnerable): 1.01 (33.66%)
+Snippet: CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.11 (3.67%)
+  Heuristic Confidence (Vulnerable): 2.47 (82.33%)
+Snippet: CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.0 (0.0%)
+  Heuristic Confidence (Vulnerable): 2.58 (85.99%)
+Snippet: CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.04 (1.33%)
+  Heuristic Confidence (Vulnerable): 2.54 (84.66%)
+Snippet: CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.06 (2.0%)
+  Heuristic Confidence (Vulnerable): 2.52 (83.99%)
+Snippet: CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.01 (0.33%)
+  Heuristic Confidence (Vulnerable): 2.57 (85.66%)
+Snippet: CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.02 (0.67%)
+  Heuristic Confidence (Vulnerable): 2.56 (85.32%)
+Snippet: CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.43 (14.33%)
+  Heuristic Confidence (Vulnerable): 2.15 (71.66%)
+Snippet: CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.26 (8.67%)
+  Heuristic Confidence (Vulnerable): 2.32 (77.33%)
+Snippet: CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.12 (4.0%)
+  Heuristic Confidence (Vulnerable): 2.46 (81.99%)
+Snippet: CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.22 (7.33%)
+  Heuristic Confidence (Vulnerable): 2.36 (78.66%)
+Snippet: CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.21 (7.0%)
+  Heuristic Confidence (Vulnerable): 2.37 (78.99%)
+Snippet: CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il
+  Heuristic Confidence (Non-Vulnerable): 2.24 (74.66%)
+  Heuristic Confidence (Vulnerable): 0.34 (11.33%)
+Snippet: CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.17 (5.67%)
+  Heuristic Confidence (Vulnerable): 2.41 (80.33%)
+Snippet: CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.04 (1.33%)
+  Heuristic Confidence (Vulnerable): 2.54 (84.66%)
+Snippet: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.14 (4.67%)
+  Heuristic Confidence (Vulnerable): 2.44 (81.33%)
+Snippet: CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.05 (1.67%)
+  Heuristic Confidence (Vulnerable): 2.53 (84.32%)
+Snippet: CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il
+  Heuristic Confidence (Non-Vulnerable): 0.44 (14.67%)
+  Heuristic Confidence (Vulnerable): 2.14 (71.33%)
+Snippet: CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.02 (0.67%)
+  Heuristic Confidence (Vulnerable): 2.56 (85.32%)
+Snippet: CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.08 (2.67%)
+  Heuristic Confidence (Vulnerable): 2.5 (83.32%)
+Snippet: CWE_89__system__no_sanitizing__multiple_AS-concatenation.il
+  Heuristic Confidence (Non-Vulnerable): 0.08 (2.67%)
+  Heuristic Confidence (Vulnerable): 2.5 (83.32%)
+Snippet: CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il
+  Heuristic Confidence (Non-Vulnerable): 0.14 (4.67%)
+  Heuristic Confidence (Vulnerable): 2.44 (81.33%)
+
+----- HMM supervised model output: -----
+
+Ficheiro: CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il
+var1::taint  array::und 
+var1_0::taint 
+var1_1::taint  GET::taint 
+var1_2::taint 
+var2::taint  var1_1::taint 
+var3::taint  filter_var::taint  var2::taint  FILTER_SANITIZE_SPECIAL_CHARS::taint 
+var2::taint  var3::taint 
+var4::taint  SQL_QUERY::taint  var2::taint 
+var5::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var4::taint 
+var6::taint  mysql_query::taint  var4::taint 
+loop::taint  var7::taint  mysql_fetch_array::taint  var6::taint 
+print_r::taint  var7::taint 
+echo::und 
+mysql_close::taint  var5::taint 
+
+Ficheiro: CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+var1::taint  exec::taint 
+var2::taint  filter_var::taint  var1::taint  FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint 
+var1::taint  var2::taint 
+var3::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il
+var1::taint 
+exec::taint  var1::taint  var2::taint  var3::taint 
+var4::taint  var2_0::taint 
+var5::taint  filter_var::taint  var4::taint  FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint 
+var4::taint  var5::taint 
+var6::taint  SQL_QUERY::taint  var4::taint 
+var7::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::taint 
+var8::taint  mysql_query::taint  var6::taint 
+loop::taint  var9::taint  mysql_fetch_array::taint  var8::taint 
+print_r::taint  var9::taint 
+echo::und 
+mysql_close::taint  var7::taint 
+
+Ficheiro: CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il
+var1::taint 
+exec::taint  var1::taint  var2::taint  var3::taint 
+var4::taint  var2_0::taint 
+var4::ntaint  mysql_real_escape_string::san  var4::taint 
+var5::ntaint  SQL_QUERY::ntaint  var4::ntaint 
+var6::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::und 
+var7::ntaint  mysql_query::ntaint  var5::ntaint 
+loop::ntaint  var8::ntaint  mysql_fetch_array::ntaint  var7::ntaint 
+print_r::ntaint  var8::ntaint 
+echo::und 
+mysql_close::ntaint  var6::ntaint 
+
+Ficheiro: CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il
+var1::taint 
+exec::taint  var1::taint  var2::taint  var3::taint 
+var4::taint  var2_0::taint 
+var5::taint  SQL_QUERY::taint  var4::taint 
+var6::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var5::taint 
+var7::taint  mysql_query::taint  var5::taint 
+loop::taint  var8::taint  mysql_fetch_array::taint  var7::taint 
+print_r::taint  var8::taint 
+echo::und 
+mysql_close::taint  var6::taint 
+
+Ficheiro: CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+var1::taint  fopen::taint 
+if::und  var1::taint 
+if::und  var2::taint  fgets::taint  var1::taint  4096::und  false::und 
+var2::taint 
+fclose::und  var1::taint 
+else::und 
+var2::taint 
+var3::taint  filter_var::taint  var2::taint  FILTER_SANITIZE_EMAIL::taint 
+if::und  filter_var::taint  var3::taint  FILTER_VALIDATE_EMAIL::taint 
+var2::taint  var3::taint 
+else::und 
+var2::taint 
+var4::taint  SQL_QUERY::taint  var2::taint 
+var5::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var4::taint 
+var6::taint  mysql_query::taint  var4::taint 
+loop::taint  var7::taint  mysql_fetch_array::taint  var6::taint 
+print_r::taint  var7::taint 
+echo::und 
+mysql_close::taint  var5::taint 
+
+Ficheiro: CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il
+var1::taint  fopen::taint 
+if::und  var1::taint 
+if::und  var2::taint  fgets::taint  var1::taint  4096::und  false::und 
+var2::taint 
+fclose::und  var1::taint 
+else::und 
+var2::taint 
+var3::taint  sprintf::taint  SQL_QUERY::taint  var2::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+var1::taint  GET::taint 
+var2::taint  filter_var::taint  var1::taint  FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint 
+var1::taint  var2::taint 
+var3::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il
+var1::taint  GET::taint 
+if::und  filter_var::taint  var2::taint  FILTER_VALIDATE_EMAIL::taint 
+var1::taint  var2::taint 
+else::und 
+var1::taint 
+var3::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+var1::taint  GET::taint 
+var2::taint 
+if::und  preg_match::san  var2::und  var1_1::taint 
+var1::taint  var1::taint 
+else::und 
+var1::taint 
+var3::taint  sprintf::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+class::taint  class_name1::taint 
+private::taint  var1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  var2->input_1::taint 
+public::taint  function::taint  function_name2::taint 
+var2->input::taint  array::und 
+var2->input_0::taint 
+var2->input_1::taint  GET::taint 
+var2->input_2::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var5::taint  filter_var::taint  var4::taint  FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint 
+var4::taint  var5::taint 
+var6::taint  SQL_QUERY::taint  var4::taint 
+var7::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::taint 
+var8::taint  mysql_query::taint  var6::taint 
+loop::taint  var9::taint  mysql_fetch_array::taint  var8::taint 
+print_r::taint  var9::taint 
+echo::und 
+mysql_close::taint  var7::taint 
+
+Ficheiro: CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+class::taint  class_name1::taint 
+private::taint  var1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  var2->input_1::taint 
+public::taint  function::taint  function_name2::taint 
+var2->input::taint  array::und 
+var2->input_0::taint 
+var2->input_1::taint  GET::taint 
+var2->input_2::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var5::taint 
+if::und  preg_match::san  var5::und  var4_1::taint 
+var4::taint  var4::taint 
+else::und 
+var4::taint 
+var6::taint  sprintf::taint  SQL_QUERY::taint  var4::taint 
+var7::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::taint 
+var8::taint  mysql_query::taint  var6::taint 
+loop::taint  var9::taint  mysql_fetch_array::taint  var8::taint 
+print_r::taint  var9::taint 
+echo::und 
+mysql_close::taint  var7::taint 
+
+Ficheiro: CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il
+class::taint  class_name1::taint 
+private::taint  var1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  var2->input::taint 
+public::taint  function::taint  function_name2::taint 
+var2->input::taint  GET::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+if::und  filter_var::taint  var5::taint  FILTER_VALIDATE_EMAIL::taint 
+var4::taint  var5::taint 
+else::und 
+var4::taint 
+var6::taint  SQL_QUERY::taint  var4::taint 
+var7::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::taint 
+var8::taint  mysql_query::taint  var6::taint 
+loop::taint  var9::taint  mysql_fetch_array::taint  var8::taint 
+print_r::taint  var9::taint 
+echo::und 
+mysql_close::taint  var7::taint 
+
+Ficheiro: CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il
+class::taint  class_name1::taint 
+private::taint  var1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  var2->input::taint 
+public::taint  function::taint  function_name2::taint 
+var2->input::taint  GET::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var5::taint 
+if::und  preg_match::san  var5::und  var4_1::taint 
+var4::taint  var4::taint 
+else::und 
+var4::taint 
+var6::taint  SQL_QUERY::taint  var4::taint 
+var7::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::taint 
+var8::taint  mysql_query::taint  var6::taint 
+loop::taint  var9::taint  mysql_fetch_array::taint  var8::taint 
+print_r::taint  var9::taint 
+echo::und 
+mysql_close::taint  var7::taint 
+
+Ficheiro: CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+class::taint  class_name1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  GET::taint 
+var1::taint  new::taint  class_name1::taint 
+var2::taint  var1->function_name1::taint 
+var3::taint  filter_var::taint  var2::taint  FILTER_SANITIZE_EMAIL::taint 
+if::und  filter_var::taint  var3::taint  FILTER_VALIDATE_EMAIL::taint 
+var2::taint  var3::taint 
+else::und 
+var2::taint 
+var4::taint  SQL_QUERY::taint  var2::taint 
+var5::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var4::taint 
+var6::taint  mysql_query::taint  var4::taint 
+loop::taint  var7::taint  mysql_fetch_array::taint  var6::taint 
+print_r::taint  var7::taint 
+echo::und 
+mysql_close::taint  var5::taint 
+
+Ficheiro: CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il
+class::taint  class_name1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  GET::taint 
+var1::taint  new::taint  class_name1::taint 
+var2::taint  var1->function_name1::taint 
+var2::ntaint  mysql_real_escape_string::san  var2::taint 
+var3::ntaint  SQL_QUERY::ntaint  var2::ntaint 
+var4::und  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::und 
+var5::ntaint  mysql_query::ntaint  var3::ntaint 
+loop::ntaint  var6::ntaint  mysql_fetch_array::ntaint  var5::ntaint 
+print_r::ntaint  var6::ntaint 
+echo::und 
+mysql_close::ntaint  var4::ntaint 
+
+Ficheiro: CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il
+class::taint  class_name1::taint 
+private::taint  var1::taint 
+public::taint  function::taint  function_name1::taint 
+return::taint  var2->input::taint 
+public::taint  function::taint  function_name2::taint 
+var2->input::taint  array::und 
+var2->input::taint 
+var2->input::taint  GET::taint 
+var2->input::taint 
+var3::taint  new::taint  class_name1::taint 
+var4::taint  var3->function_name1::taint 
+var5::taint  filter_var::taint  var4::taint  FILTER_SANITIZE_SPECIAL_CHARS::taint 
+var4::taint  var5::taint 
+var6::taint  SQL_QUERY::taint  var4::taint 
+var7::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var6::taint 
+var8::taint  mysql_query::taint  var6::taint 
+loop::taint  var9::taint  mysql_fetch_array::taint  var8::taint 
+print_r::taint  var9::taint 
+echo::und 
+mysql_close::taint  var7::taint 
+
+Ficheiro: CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il
+var1::taint  popen::taint 
+var2::taint  fread::taint  var1::taint  4096::und 
+pclose::und  var1::taint 
+var3::taint  filter_var::taint  var2::taint  FILTER_SANITIZE_SPECIAL_CHARS::taint 
+var2::taint  var3::taint 
+var4::taint  SQL_QUERY::taint  var2::taint 
+var5::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var4::taint 
+var6::taint  mysql_query::taint  var4::taint 
+loop::taint  var7::taint  mysql_fetch_array::taint  var6::taint 
+print_r::taint  var7::taint 
+echo::und 
+mysql_close::taint  var5::taint 
+
+Ficheiro: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+var1::taint  popen::taint 
+var2::taint  fread::taint  var1::taint  4096::und 
+pclose::und  var1::taint 
+var3::taint  SQL_QUERY::taint  var2::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+var1::taint  POST::taint 
+var2::taint  filter_var::taint  var1::taint  FILTER_SANITIZE_SPECIAL_CHARS::taint 
+var1::taint  var2::taint 
+var3::taint  sprintf::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il
+var1::taint  SESSION::taint 
+var2::taint  SQL_QUERY::taint  var1::taint 
+var3::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var2::taint 
+var4::taint  mysql_query::taint  var2::taint 
+loop::taint  var5::taint  mysql_fetch_array::taint  var4::taint 
+print_r::taint  var5::taint 
+echo::und 
+mysql_close::taint  var3::taint 
+
+Ficheiro: CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+var1::taint  system::taint  var2::taint 
+var3::taint  filter_var::taint  var1::taint  FILTER_SANITIZE_SPECIAL_CHARS::taint 
+var1::taint  var3::taint 
+var4::taint  sprintf::taint  SQL_QUERY::taint  var1::taint 
+var5::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var4::taint 
+var6::taint  mysql_query::taint  var4::taint 
+loop::taint  var7::taint  mysql_fetch_array::taint  var6::taint 
+print_r::taint  var7::taint 
+echo::und 
+mysql_close::taint  var5::taint 
+
+Ficheiro: CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il
+var1::taint  system::taint  var2::taint 
+var3::taint  sprintf::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__system__no_sanitizing__multiple_AS-concatenation.il
+var1::taint  system::taint  var2::taint 
+var3::taint  SQL_QUERY::taint  var1::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+
+Ficheiro: CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il
+var1::taint  POST::taint 
+var2::taint  unserialize::taint  var1::taint 
+var3::taint  sprintf::taint  SQL_QUERY::taint  var2::taint 
+var4::taint  mysql_connect::und 
+mysql_select_db::und 
+echo::und  var3::taint 
+var5::taint  mysql_query::taint  var3::taint 
+loop::taint  var6::taint  mysql_fetch_array::taint  var5::taint 
+print_r::taint  var6::taint 
+echo::und 
+mysql_close::taint  var4::taint 
+--------------------------------------
+
+----- MEMM supervised model output: -----
+
+Ficheiro: CWE_89__array-GET__func_FILTER-CLEANING-special_chars_filter__join-concatenation_simple_quote.il
+var1::taint array::und
+var1_0::taint
+var1_1::taint GET::taint
+var1_2::taint
+var2::taint var1_1::taint
+var3::taint filter_var::taint var2::taint FILTER_SANITIZE_SPECIAL_CHARS::taint
+var2::taint var3::taint
+var4::taint SQL_QUERY::taint var2::taint
+var5::taint mysql_connect::und
+mysql_select_db::und
+echo::und var4::taint
+var6::taint mysql_query::taint var4::taint
+loop::taint var7::taint mysql_fetch_array::taint var6::taint
+print_r::taint var7::taint
+echo::und
+mysql_close::taint var5::taint
+
+Ficheiro: CWE_89__backticks__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+var1::taint exec::taint
+var2::taint filter_var::taint var1::taint FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint
+var1::taint var2::taint
+var3::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__exec__func_FILTER-CLEANING-full_special_chars_filter__join-concatenation_simple_quote.il
+var1::und
+exec::taint var1::taint var2::taint var3::taint
+var4::taint var2_0::taint
+var5::taint filter_var::taint var4::taint FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint
+var4::taint var5::taint
+var6::taint SQL_QUERY::taint var4::taint
+var7::taint mysql_connect::und
+mysql_select_db::und
+echo::und var6::taint
+var8::taint mysql_query::taint var6::taint
+loop::taint var9::taint mysql_fetch_array::taint var8::taint
+print_r::taint var9::taint
+echo::und
+mysql_close::taint var7::taint
+
+Ficheiro: CWE_89__exec__func_mysql_real_escape_string__multiple_select-interpretation.il
+var1::taint
+exec::taint var1::taint var2::taint var3::taint
+var4::taint var2_0::taint
+var4::ntaint mysql_real_escape_string::san var4::taint
+var5::ntaint SQL_QUERY::ntaint var4::ntaint
+var6::und mysql_connect::und
+mysql_select_db::und
+echo::und var5::und
+var7::ntaint mysql_query::ntaint var5::ntaint
+loop::ntaint var8::ntaint mysql_fetch_array::ntaint var7::ntaint
+print_r::ntaint var8::ntaint
+echo::und
+mysql_close::und var6::und
+
+Ficheiro: CWE_89__exec__no_sanitizing__select_from_where-concatenation_simple_quote.il
+var1::und
+exec::taint var1::taint var2::taint var3::taint
+var4::taint var2_0::taint
+var5::taint SQL_QUERY::taint var4::taint
+var6::taint mysql_connect::und
+mysql_select_db::und
+echo::und var5::taint
+var7::taint mysql_query::taint var5::taint
+loop::taint var8::taint mysql_fetch_array::taint var7::taint
+print_r::taint var8::taint
+echo::und
+mysql_close::taint var6::taint
+
+Ficheiro: CWE_89__fopen__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+var1::taint fopen::taint
+if::und var1::taint
+if::und var2::taint fgets::taint var1::taint 4096::und false::und
+var2::taint
+fclose::und var1::taint
+else::und
+var2::taint
+var3::taint filter_var::taint var2::taint FILTER_SANITIZE_EMAIL::taint
+if::und filter_var::taint var3::taint FILTER_VALIDATE_EMAIL::taint
+var2::taint var3::taint
+else::und
+var2::taint
+var4::taint SQL_QUERY::taint var2::taint
+var5::taint mysql_connect::und
+mysql_select_db::und
+echo::und var4::taint
+var6::taint mysql_query::taint var4::taint
+loop::taint var7::taint mysql_fetch_array::taint var6::taint
+print_r::taint var7::taint
+echo::und
+mysql_close::taint var5::taint
+
+Ficheiro: CWE_89__fopen__no_sanitizing__select_from_where-sprintf_s_simple_quote.il
+var1::taint fopen::taint
+if::und var1::taint
+if::und var2::taint fgets::taint var1::taint 4096::und false::und
+var2::taint
+fclose::und var1::taint
+else::und
+var2::taint
+var3::taint sprintf::taint SQL_QUERY::taint var2::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__GET__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+var1::taint GET::taint
+var2::taint filter_var::taint var1::taint FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint
+var1::taint var2::taint
+var3::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__GET__func_FILTER-VALIDATION-email_filter__select_from-concatenation_simple_quote.il
+var1::taint GET::taint
+if::und filter_var::taint var2::taint FILTER_VALIDATE_EMAIL::taint
+var1::taint var2::taint
+else::und
+var1::taint
+var3::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__GET__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+var1::taint GET::taint
+var2::taint
+if::und preg_match::san var2::taint var1_1::taint
+var1::taint var1::taint
+else::und
+var1::taint
+var3::taint sprintf::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__object-Array__func_FILTER-CLEANING-full_special_chars_filter__select_from-concatenation_simple_quote.il
+class::und class_name1::und
+private::taint var1::taint
+public::taint function::taint function_name1::taint
+return::taint var2->input_1::taint
+public::taint function::taint function_name2::taint
+var2->input::taint array::taint
+var2->input_0::taint
+var2->input_1::taint GET::taint
+var2->input_2::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var5::taint filter_var::taint var4::taint FILTER_SANITIZE_FULL_SPECIAL_CHARS::taint
+var4::taint var5::taint
+var6::taint SQL_QUERY::taint var4::taint
+var7::taint mysql_connect::und
+mysql_select_db::und
+echo::und var6::taint
+var8::taint mysql_query::taint var6::taint
+loop::taint var9::taint mysql_fetch_array::taint var8::taint
+print_r::taint var9::taint
+echo::und
+mysql_close::taint var7::taint
+
+Ficheiro: CWE_89__object-Array__func_preg_match-no_filtering__join-sprintf_s_simple_quote.il
+class::und class_name1::und
+private::taint var1::taint
+public::taint function::taint function_name1::taint
+return::taint var2->input_1::taint
+public::taint function::taint function_name2::taint
+var2->input::taint array::taint
+var2->input_0::taint
+var2->input_1::taint GET::taint
+var2->input_2::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var5::taint
+if::und preg_match::san var5::taint var4_1::taint
+var4::taint var4::taint
+else::und
+var4::taint
+var6::taint sprintf::taint SQL_QUERY::taint var4::taint
+var7::taint mysql_connect::und
+mysql_select_db::und
+echo::und var6::taint
+var8::taint mysql_query::taint var6::taint
+loop::taint var9::taint mysql_fetch_array::taint var8::taint
+print_r::taint var9::taint
+echo::und
+mysql_close::taint var7::taint
+
+Ficheiro: CWE_89__object-classicGet__func_FILTER-VALIDATION-email_filter__join-concatenation_simple_quote.il
+class::und class_name1::und
+private::taint var1::taint
+public::taint function::taint function_name1::taint
+return::taint var2->input::taint
+public::taint function::taint function_name2::taint
+var2->input::taint GET::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+if::und filter_var::taint var5::taint FILTER_VALIDATE_EMAIL::taint
+var4::taint var5::taint
+else::und
+var4::taint
+var6::taint SQL_QUERY::taint var4::taint
+var7::taint mysql_connect::und
+mysql_select_db::und
+echo::und var6::taint
+var8::taint mysql_query::taint var6::taint
+loop::taint var9::taint mysql_fetch_array::taint var8::taint
+print_r::taint var9::taint
+echo::und
+mysql_close::taint var7::taint
+
+Ficheiro: CWE_89__object-classicGet__func_preg_match-no_filtering__select_from-interpretation_simple_quote.il
+class::und class_name1::und
+private::taint var1::taint
+public::taint function::taint function_name1::taint
+return::taint var2->input::taint
+public::taint function::taint function_name2::taint
+var2->input::taint GET::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var5::taint
+if::und preg_match::san var5::taint var4_1::taint
+var4::taint var4::taint
+else::und
+var4::taint
+var6::taint SQL_QUERY::taint var4::taint
+var7::taint mysql_connect::und
+mysql_select_db::und
+echo::und var6::taint
+var8::taint mysql_query::taint var6::taint
+loop::taint var9::taint mysql_fetch_array::taint var8::taint
+print_r::taint var9::taint
+echo::und
+mysql_close::taint var7::taint
+
+Ficheiro: CWE_89__object-directGet__func_FILTER-CLEANING-email_filter__select_from-concatenation_simple_quote.il
+class::taint class_name1::und
+public::taint function::taint function_name1::taint
+return::taint GET::taint
+var1::taint new::taint class_name1::taint
+var2::taint var1->function_name1::taint
+var3::taint filter_var::taint var2::taint FILTER_SANITIZE_EMAIL::taint
+if::und filter_var::taint var3::taint FILTER_VALIDATE_EMAIL::taint
+var2::taint var3::taint
+else::und
+var2::taint
+var4::taint SQL_QUERY::taint var2::taint
+var5::taint mysql_connect::und
+mysql_select_db::und
+echo::und var4::taint
+var6::taint mysql_query::taint var4::taint
+loop::taint var7::taint mysql_fetch_array::taint var6::taint
+print_r::taint var7::taint
+echo::und
+mysql_close::taint var5::taint
+
+Ficheiro: CWE_89__object-directGet__func_mysql_real_escape_string__select_from_where-concatenation.il
+class::und class_name1::und
+public::und function::und function_name1::und
+return::taint GET::taint
+var1::taint new::taint class_name1::taint
+var2::taint var1->function_name1::taint
+var2::ntaint mysql_real_escape_string::san var2::taint
+var3::ntaint SQL_QUERY::ntaint var2::ntaint
+var4::und mysql_connect::und
+mysql_select_db::und
+echo::und var3::und
+var5::ntaint mysql_query::ntaint var3::ntaint
+loop::ntaint var6::ntaint mysql_fetch_array::ntaint var5::ntaint
+print_r::ntaint var6::ntaint
+echo::und
+mysql_close::und var4::und
+
+Ficheiro: CWE_89__object-indexArray__func_FILTER-CLEANING-special_chars_filter__join-interpretation_simple_quote.il
+class::und class_name1::und
+private::taint var1::taint
+public::taint function::taint function_name1::taint
+return::taint var2->input::taint
+public::taint function::taint function_name2::taint
+var2->input::taint array::taint
+var2->input::taint
+var2->input::taint GET::taint
+var2->input::taint
+var3::taint new::taint class_name1::taint
+var4::taint var3->function_name1::taint
+var5::taint filter_var::taint var4::taint FILTER_SANITIZE_SPECIAL_CHARS::taint
+var4::taint var5::taint
+var6::taint SQL_QUERY::taint var4::taint
+var7::taint mysql_connect::und
+mysql_select_db::und
+echo::und var6::taint
+var8::taint mysql_query::taint var6::taint
+loop::taint var9::taint mysql_fetch_array::taint var8::taint
+print_r::taint var9::taint
+echo::und
+mysql_close::taint var7::taint
+
+Ficheiro: CWE_89__popen__func_FILTER-CLEANING-special_chars_filter__select_from-interpretation_simple_quote.il
+var1::taint popen::taint
+var2::taint fread::taint var1::taint 4096::und
+pclose::und var1::taint
+var3::taint filter_var::taint var2::taint FILTER_SANITIZE_SPECIAL_CHARS::und
+var2::taint var3::taint
+var4::taint SQL_QUERY::taint var2::taint
+var5::taint mysql_connect::und
+mysql_select_db::und
+echo::und var4::taint
+var6::taint mysql_query::taint var4::taint
+loop::taint var7::taint mysql_fetch_array::taint var6::taint
+print_r::taint var7::taint
+echo::und
+mysql_close::taint var5::taint
+
+Ficheiro: CWE_89__popen__no_sanitizing__select_from_where-interpretation_simple_quote.il
+var1::taint popen::taint
+var2::taint fread::taint var1::taint 4096::und
+pclose::und var1::taint
+var3::taint SQL_QUERY::taint var2::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__POST__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+var1::taint POST::taint
+var2::taint filter_var::taint var1::taint FILTER_SANITIZE_SPECIAL_CHARS::taint
+var1::taint var2::taint
+var3::taint sprintf::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__SESSION__no_sanitizing__multiple_select-concatenation.il
+var1::taint SESSION::taint
+var2::taint SQL_QUERY::taint var1::taint
+var3::taint mysql_connect::und
+mysql_select_db::und
+echo::und var2::taint
+var4::taint mysql_query::taint var2::taint
+loop::taint var5::taint mysql_fetch_array::taint var4::taint
+print_r::taint var5::taint
+echo::und
+mysql_close::taint var3::taint
+
+Ficheiro: CWE_89__system__func_FILTER-CLEANING-special_chars_filter__join-sprintf_s_simple_quote.il
+var1::taint system::taint var2::und
+var3::taint filter_var::taint var1::taint FILTER_SANITIZE_SPECIAL_CHARS::taint
+var1::taint var3::taint
+var4::taint sprintf::taint SQL_QUERY::taint var1::taint
+var5::taint mysql_connect::und
+mysql_select_db::und
+echo::und var4::taint
+var6::taint mysql_query::taint var4::taint
+loop::taint var7::taint mysql_fetch_array::taint var6::taint
+print_r::taint var7::taint
+echo::und
+mysql_close::taint var5::taint
+
+Ficheiro: CWE_89__system__no_sanitizing__join-sprintf_s_simple_quote.il
+var1::taint system::taint var2::und
+var3::taint sprintf::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__system__no_sanitizing__multiple_AS-concatenation.il
+var1::taint system::taint var2::und
+var3::taint SQL_QUERY::taint var1::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+
+Ficheiro: CWE_89__unserialize__no_sanitizing__multiple_AS-sprintf_s_simple_quote.il
+var1::taint POST::taint
+var2::taint unserialize::taint var1::taint
+var3::taint sprintf::taint SQL_QUERY::taint var2::taint
+var4::taint mysql_connect::und
+mysql_select_db::und
+echo::und var3::taint
+var5::taint mysql_query::taint var3::taint
+loop::taint var6::taint mysql_fetch_array::taint var5::taint
+print_r::taint var6::taint
+echo::und
+mysql_close::taint var4::taint
+--------------------------------------

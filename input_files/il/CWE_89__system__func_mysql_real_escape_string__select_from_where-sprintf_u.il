@@ -1,5 +1,6 @@
 var1 system var2
-var3 SQL_QUERY var1
+var1 mysql_real_escape_string var1
+var3 sprintf SQL_QUERY var1
 var4 mysql_connect
 mysql_select_db
 echo var3

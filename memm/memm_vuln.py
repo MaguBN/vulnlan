@@ -173,7 +173,7 @@ else:
         all_predicted_labels = all_predicted_labels[:min_len]
 
         print("\nRelatório de Classificação no conjunto de TESTE:")
-        print(classification_report(all_true_labels, all_predicted_labels, zero_division=0))
+        print(classification_report(all_true_labels, all_predicted_labels, zero_division=0, digits=3))
 
     # Save the trained model
     joblib.dump(modelo_MEMM, "modelo_MEMM_vuln.pkl")
